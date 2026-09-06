@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 24px;
+}
+
+.flag {
+  position: relative;
+  width: 600px;
+  height: 360px;
+  background-color: #006a4e;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.25);
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  aspect-ratio: 1 / 1;
+  background-color: #f42a41;
+  border-radius: 50%;
+}
