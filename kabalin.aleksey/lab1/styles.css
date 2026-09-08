@@ -1,0 +1,15 @@
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+}
