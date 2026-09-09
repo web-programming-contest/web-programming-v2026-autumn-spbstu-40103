@@ -1,4 +1,5 @@
 const UNITS = [
+  {limit: 60, divisor: 1, forms: ['секунда', 'секунды', 'секунд']},
   {limit: 3600, divisor: 60, forms: ['минута', 'минуты', 'минут']},
   {limit: 86400, divisor: 3600, forms: ['час', 'часа', 'часов']},
   {limit: Infinity, divisor: 86400, forms: ['день', 'дня', 'дней']},
