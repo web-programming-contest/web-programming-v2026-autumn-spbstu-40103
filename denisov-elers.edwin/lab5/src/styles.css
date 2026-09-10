@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+.book-list {
+  display: flex;
+  gap: 20px;
+}
+
+.book-card {
+  background-color: tan;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-card-cover {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.book-card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.rating-star {
+  border-radius: 3px;
+  border: 0;
+}
+
+.rating-value {
+  margin-right: 20px;
+}
+
+.book-card-price {
+  margin-top: auto;
+}
