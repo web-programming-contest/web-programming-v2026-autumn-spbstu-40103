@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Путешествия</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Мои путешествия</h1>
+
+    <form data-testid="entity-form">
+      <label>
+        ID
+        <input type="number" name="id" required />
+      </label>
+      <label>
+        Имя путешественника
+        <input type="text" name="travelerName" required />
+      </label>
+      <button type="submit">Добавить путешествие</button>
+    </form>
+
+    <ul data-testid="entity-list" class="travel-list"></ul>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
