@@ -18,7 +18,6 @@ form.addEventListener('submit', (event) => {
     return;
   }
   if (travels.some((travel) => travel.id === id)) {
-    // ДОБАВЬ ЗАЩИТУ ОТ ДУБЛИКТОВ
     window.alert(`Путешествие с ID ${id} уже существует`);
     return;
   }
@@ -146,7 +145,7 @@ function render() {
         window.alert(`Страна «${country}» не найдена у ${travel.travelerName}`);
         return;
       }
-      removeCountry(travel.id, country);
+      void removeCountry(travel.id, country);
       countryInput.value = '';
     });
     countryForm.append(removeCountryButton);
@@ -163,7 +162,7 @@ function render() {
         );
         return;
       }
-      addCountry(travel.id, country);
+      void addCountry(travel.id, country);
       countryInput.value = '';
     });
 
