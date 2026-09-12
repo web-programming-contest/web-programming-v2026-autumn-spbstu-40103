@@ -1,0 +1,211 @@
+[
+  {
+    "id": "p1",
+    "name": "Смартфон 256 ГБ розовый",
+    "price": 102099,
+    "rating": 5,
+    "popularity": 97,
+    "createdAt": "2024-04-28",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/iphone.png",
+    "description": "Смартфон 256 ГБ розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": true
+  },
+  {
+    "id": "p2",
+    "name": "Умный робот-друг Red solution Reddy Air",
+    "price": 27990,
+    "rating": 4.9,
+    "popularity": 91,
+    "createdAt": "2024-04-27",
+    "category": "Умные роботы",
+    "color": "Белый",
+    "image": "/assets/catalog/robot.png",
+    "description": "Умный робот-друг Red solution Reddy Air. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Умные роботы",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p3",
+    "name": "Часы с GPS трекером, розовый",
+    "price": 2000,
+    "rating": 4.8,
+    "popularity": 85,
+    "createdAt": "2024-04-26",
+    "category": "Умные часы",
+    "color": "Розовый",
+    "image": "/assets/catalog/gps.png",
+    "description": "Часы с GPS трекером, розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p4",
+    "name": "Смарт-часы, черные",
+    "price": 15199,
+    "rating": 4,
+    "popularity": 79,
+    "createdAt": "2024-04-25",
+    "category": "Умные часы",
+    "color": "Черный",
+    "image": "/assets/catalog/watch2.png",
+    "description": "Смарт-часы, черные. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Черный",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p5",
+    "name": "Смартфон 256 ГБ розовый",
+    "price": 43999,
+    "rating": 4.2,
+    "popularity": 73,
+    "createdAt": "2024-04-24",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/android.png",
+    "description": "Смартфон 256 ГБ розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p6",
+    "name": "Беспроводная акустика, голубой",
+    "price": 4990,
+    "rating": 4.8,
+    "popularity": 67,
+    "createdAt": "2024-04-23",
+    "category": "Портативная акустика",
+    "color": "Голубой",
+    "image": "/assets/catalog/acoustic.png",
+    "description": "Беспроводная акустика, голубой. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Голубой",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p7",
+    "name": "Аппаратный ключ аутентификации",
+    "price": 10590,
+    "rating": 5,
+    "popularity": 61,
+    "createdAt": "2024-04-22",
+    "category": "Ключи аутентификации",
+    "color": "Синий",
+    "image": "/assets/catalog/key.png",
+    "description": "Аппаратный ключ аутентификации. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Ключи аутентификации",
+      "Цвет": "Синий",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p8",
+    "name": "Шлем виртуальной реальности 128 ГБ",
+    "price": 49990,
+    "rating": 4.8,
+    "popularity": 55,
+    "createdAt": "2024-04-21",
+    "category": "Очки виртуальной реальности",
+    "color": "Белый",
+    "image": "/assets/catalog/vr.png",
+    "description": "Шлем виртуальной реальности 128 ГБ. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Очки виртуальной реальности",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p9",
+    "name": "Фитнес-браслет, розовый",
+    "price": 2299,
+    "rating": 4.5,
+    "popularity": 49,
+    "createdAt": "2024-04-20",
+    "category": "Фитнес браслеты",
+    "color": "Розовый",
+    "image": "/assets/catalog/watch.png",
+    "description": "Фитнес-браслет, розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Фитнес браслеты",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p10",
+    "name": "Беспроводная акустика, бежевый",
+    "price": 4990,
+    "rating": 5,
+    "popularity": 43,
+    "createdAt": "2024-04-19",
+    "category": "Портативная акустика",
+    "color": "Бежевый",
+    "image": "/assets/catalog/acoustic2.png",
+    "description": "Беспроводная акустика, бежевый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Бежевый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p11",
+    "name": "Смартфон Samsung Galaxy Z Flip5 8/256GB фиолетовый",
+    "price": 94990,
+    "rating": 5,
+    "popularity": 37,
+    "createdAt": "2024-04-18",
+    "category": "Смартфоны",
+    "color": "Фиолетовый",
+    "image": "/assets/catalog/samsung.png",
+    "description": "Смартфон фиолетовый — девайс со складным корпусом и двумя экранами, что расширяет его возможности.",
+    "characteristics": {
+      "Гарантия": "1 год",
+      "Экран": "3.4″ / 720×748 пикс.",
+      "Процессор": "Qualcomm Snapdragon 8 Gen 2, 1×3.36 ГГц + 2×2.8 ГГц + 2×2.8 ГГц + 3×2.0 ГГц"
+    },
+    "isNew": false,
+    "isHit": false
+  }
+]

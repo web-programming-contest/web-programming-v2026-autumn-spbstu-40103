@@ -1,0 +1,116 @@
+[
+  {
+    "id": "72982c92-db7d-49e8-bffd-7c02b42bbe89",
+    "createdAt": "2026-09-10T18:42:41.793Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "da70c3ab-bb82-4714-8d7f-ccac661d7d62",
+    "createdAt": "2026-09-10T18:45:38.937Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "d61f54db-7509-4a43-b2c2-87acd9f7575b",
+    "createdAt": "2026-09-10T18:46:20.221Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "73ac87be-d4df-49ac-8129-c81e30da30c4",
+    "createdAt": "2026-09-10T18:47:20.929Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "ae6ec1fa-ab58-4f79-b165-c70e988f52a3",
+    "createdAt": "2026-09-10T18:48:54.408Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "f04b2229-d8ed-4762-9f12-977debee5883",
+    "createdAt": "2026-09-10T18:55:28.855Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p8",
+        "quantity": 17,
+        "name": "Шлем виртуальной реальности 128 ГБ",
+        "price": 49990
+      }
+    ],
+    "total": 849830
+  }
+]
