@@ -2,7 +2,13 @@ import type {Product} from '../../../../shared/types';
 import {useStore} from '../../context/Store';
 import {asset} from '../../utils/assets';
 
-export function Quantity({product}: {product: Product}) {
+export function Quantity({
+  product,
+  showCartStatus = false,
+}: {
+  product: Product;
+  showCartStatus?: boolean;
+}) {
   const {items, setQuantity} = useStore();
   const quantity =
     items.find((item) => item.productId === product.id)?.quantity || 0;
@@ -25,6 +31,12 @@ export function Quantity({product}: {product: Product}) {
           >
             +
           </button>
+          {showCartStatus && (
+            <span className="primary cart-status" aria-live="polite">
+              <img width="16" height="16" src={asset('cart-icon.svg')} alt="" />
+              В корзине {quantity} шт.
+            </span>
+          )}
         </>
       ) : (
         <button className="primary" onClick={() => setQuantity(product.id, 1)}>
