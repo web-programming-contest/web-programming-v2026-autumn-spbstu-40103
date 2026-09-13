@@ -1,7 +1,6 @@
 import {useState} from 'react';
 import {Link} from 'react-router-dom';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import type {Product} from '../../../shared/types';
 import {ProductModal} from '../components/Product';
 import {useStore} from '../context/Store';

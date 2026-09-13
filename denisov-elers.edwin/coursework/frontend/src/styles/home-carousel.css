@@ -38,26 +38,43 @@
   height: 48px;
 }
 
-.swiper {
+.carousel-slider {
   width: 922px;
   min-width: 0;
+  position: relative;
+}
+
+.carousel-slider .swiper {
+  width: 100%;
   padding-bottom: 8px;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  --swiper-navigation-size: 24px;
+.carousel-button {
+  position: absolute;
+  z-index: 2;
   background: #fff9;
   border-radius: 20px;
   width: 30px;
   height: 40px;
-  top: 160px;
+  top: 140px;
+  padding: 10px 9px;
 }
 
-.swiper-button-prev {
-  left: 0;
+.carousel-button svg {
+  display: block;
+  width: 11px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
-.swiper-button-next {
-  right: 0;
+.carousel-button-prev {
+  left: -40px;
+}
+
+.carousel-button-next {
+  right: -40px;
 }

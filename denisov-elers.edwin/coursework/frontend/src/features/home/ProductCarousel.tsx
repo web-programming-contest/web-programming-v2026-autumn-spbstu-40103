@@ -1,5 +1,7 @@
+import {useRef} from 'react';
+import type {Swiper as SwiperInstance} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import {Navigation, A11y} from 'swiper/modules';
+import {A11y} from 'swiper/modules';
 import type {Product} from '../../../../shared/types';
 import {ProductCard} from '../../components/Product';
 import {asset} from '../../utils/assets';
@@ -19,6 +21,7 @@ export function ProductCarousel({
   open: (product: Product) => void;
 }) {
   const order = hit ? productOrder.hit : productOrder.new;
+  const swiper = useRef<SwiperInstance | null>(null);
 
   return (
     <section className="carousel-section">
@@ -35,30 +38,52 @@ export function ProductCarousel({
             : 'Их только произвели - они уже у нас! Все самое новое и свежее на рынке электроники'}
         </p>
       </div>
-      <Swiper
-        modules={[Navigation, A11y]}
-        slidesPerView={3}
-        spaceBetween={32}
-        loop
-        navigation
-        a11y={{
-          prevSlideMessage: 'Предыдущие товары',
-          nextSlideMessage: 'Следующие товары',
-        }}
-      >
-        {goods
-          .filter((product) => (hit ? product.isHit : product.isNew))
-          .sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id))
-          .map((product) => (
-            <SwiperSlide key={product.id}>
-              <ProductCard
-                product={product}
-                open={() => open(product)}
-                carousel
-              />
-            </SwiperSlide>
-          ))}
-      </Swiper>
+      <div className="carousel-slider">
+        <button
+          className="carousel-button carousel-button-prev"
+          type="button"
+          aria-label="Предыдущие товары"
+          onClick={() => swiper.current?.slidePrev()}
+        >
+          <svg viewBox="0 0 11 20" aria-hidden="true">
+            <path d="M10 1 1 10l9 9" />
+          </svg>
+        </button>
+        <Swiper
+          modules={[A11y]}
+          slidesPerView={3}
+          spaceBetween={32}
+          loop
+          onSwiper={(instance) => (swiper.current = instance)}
+          a11y={{
+            prevSlideMessage: 'Предыдущие товары',
+            nextSlideMessage: 'Следующие товары',
+          }}
+        >
+          {goods
+            .filter((product) => (hit ? product.isHit : product.isNew))
+            .sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id))
+            .map((product) => (
+              <SwiperSlide key={product.id}>
+                <ProductCard
+                  product={product}
+                  open={() => open(product)}
+                  carousel
+                />
+              </SwiperSlide>
+            ))}
+        </Swiper>
+        <button
+          className="carousel-button carousel-button-next"
+          type="button"
+          aria-label="Следующие товары"
+          onClick={() => swiper.current?.slideNext()}
+        >
+          <svg viewBox="0 0 11 20" aria-hidden="true">
+            <path d="m1 1 9 9-9 9" />
+          </svg>
+        </button>
+      </div>
     </section>
   );
 }
