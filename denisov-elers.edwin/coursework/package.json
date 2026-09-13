@@ -10,7 +10,7 @@
     "build": "npm run build -w backend && npm run build -w frontend",
     "test": "node --import tsx --test backend/src/*.test.ts",
     "test:e2e": "PLAYWRIGHT_BROWSERS_PATH=./.playwright playwright test",
-    "format:check": "prettier --check frontend/src backend/src shared tests playwright.config.ts"
+    "format:check": "prettier --check frontend/src backend/src shared README.md"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",

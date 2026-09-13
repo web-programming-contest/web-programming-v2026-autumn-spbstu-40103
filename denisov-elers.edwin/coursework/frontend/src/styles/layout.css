@@ -1,0 +1,108 @@
+header {
+  height: 80px;
+  background: #fff;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.logo span {
+  color: var(--blue);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a,
+.nav-links button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.nav-links img {
+  width: 16px;
+  height: 16px;
+}
+
+.nav-links .active {
+  background: var(--light);
+}
+
+.badge {
+  background: var(--pink);
+  color: white;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+footer {
+  background: #0c368a;
+  color: #b7ceff;
+  padding: 40px 0 48px;
+  min-height: 208px;
+}
+
+footer a {
+  color: inherit;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 360px auto;
+  align-items: start;
+  gap: 28px;
+}
+
+.footer-grid p {
+  color: #84adff;
+  margin-top: 4px;
+}
+
+.footer-phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-phone img {
+  width: 21px;
+  height: 32px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.socials img {
+  width: 36px;
+  height: 36px;
+}
+
+.copyright {
+  grid-column: 1/-1;
+}
