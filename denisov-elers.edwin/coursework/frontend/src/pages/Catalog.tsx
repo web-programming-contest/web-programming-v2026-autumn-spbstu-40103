@@ -11,6 +11,8 @@ import {
   validatePriceRange,
 } from '../features/catalog/catalog';
 
+const PRODUCTS_PER_PAGE = 9;
+
 export function Catalog() {
   const {goods} = useStore();
   const [draft, setDraft] = useState(defaultFilters);
@@ -21,13 +23,15 @@ export function Catalog() {
   const [error, setError] = useState('');
   const [product, setProduct] = useState<Product | null>(null);
   const filtered = filterAndSortProducts(goods, filters, sort, direction);
-  const pages = Math.ceil(filtered.length / 3);
+  const pages = Math.ceil(filtered.length / PRODUCTS_PER_PAGE);
 
   function apply(event: FormEvent) {
     event.preventDefault();
     const validationError = validatePriceRange(draft);
     setError(validationError);
-    if (validationError) return;
+    if (validationError) {
+      return;
+    }
 
     setFilters(draft);
     setPage(1);
@@ -58,13 +62,15 @@ export function Catalog() {
       <div className="catalog-layout">
         <div>
           <div className="product-grid">
-            {filtered.slice((page - 1) * 3, page * 3).map((item) => (
-              <ProductCard
-                key={item.id}
-                product={item}
-                open={() => setProduct(item)}
-              />
-            ))}
+            {filtered
+              .slice((page - 1) * PRODUCTS_PER_PAGE, page * PRODUCTS_PER_PAGE)
+              .map((item) => (
+                <ProductCard
+                  key={item.id}
+                  product={item}
+                  open={() => setProduct(item)}
+                />
+              ))}
           </div>
           {!filtered.length && (
             <p role="status">

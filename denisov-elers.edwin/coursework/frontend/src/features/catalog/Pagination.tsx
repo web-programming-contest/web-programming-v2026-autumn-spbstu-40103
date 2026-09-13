@@ -1,4 +1,4 @@
-import {getVisiblePages} from './catalog';
+import {getPageNumbers} from './catalog';
 
 export function Pagination({
   page,
@@ -12,25 +12,19 @@ export function Pagination({
   if (pages <= 1) {
     return null;
   }
-  const visiblePages = getVisiblePages(page, pages);
+  const pageNumbers = getPageNumbers(pages);
 
   return (
     <nav className="pagination" aria-label="Страницы каталога">
-      {visiblePages.map((value, index) => (
-        <span key={value}>
-          {index > 0 &&
-            (value - visiblePages[index - 1] > 1 ||
-              (pages > 3 && value === pages && page <= 3)) && (
-              <span className="ellipsis">…</span>
-            )}
-          <button
-            aria-label={`Страница ${value}`}
-            aria-current={page === value ? 'page' : undefined}
-            onClick={() => onChange(value)}
-          >
-            {value}
-          </button>
-        </span>
+      {pageNumbers.map((value) => (
+        <button
+          key={value}
+          aria-label={`Страница ${value}`}
+          aria-current={page === value ? 'page' : undefined}
+          onClick={() => onChange(value)}
+        >
+          {value}
+        </button>
       ))}
       <button
         aria-label="Следующая страница"

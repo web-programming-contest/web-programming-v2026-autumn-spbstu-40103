@@ -59,8 +59,6 @@ export function validatePriceRange(filters: CatalogFilters) {
     : '';
 }
 
-export function getVisiblePages(page: number, pages: number) {
-  return Array.from(new Set([1, 2, 3, ...(page > 3 ? [page] : []), pages]))
-    .filter((value) => value > 0 && value <= pages)
-    .sort((a, b) => a - b);
+export function getPageNumbers(pages: number) {
+  return Array.from({length: pages}, (_, index) => index + 1);
 }
