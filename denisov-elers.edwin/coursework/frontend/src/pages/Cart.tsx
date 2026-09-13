@@ -8,6 +8,7 @@ import {CheckoutForm} from '../features/cart/CheckoutForm';
 import {OrderHistory} from '../features/cart/OrderHistory';
 import {getCartSummary} from '../features/cart/cartSummary';
 import {useCheckout} from '../features/cart/useCheckout';
+import {asset} from '../utils/assets';
 
 export function Cart() {
   const {goods, items, remove, clear} = useStore();
@@ -63,12 +64,22 @@ export function Cart() {
         {tab === 'history' ? (
           <OrderHistory onError={setError} />
         ) : !lines.length ? (
-          <section className="panel empty">
-            <h2>Ваша корзина пуста</h2>
-            <p>Добавьте понравившиеся товары из каталога</p>
-            <Link className="primary" to="/catalog">
-              Перейти в каталог
-            </Link>
+          <section className="empty-cart">
+            <img src={asset('empty.png')} width="148" height="134" alt="" />
+            <h2>Пока пусто</h2>
+            <p>
+              Ознакомьтесь с новинками и хитами на главной
+              <br />
+              или найдите нужное в каталоге
+            </p>
+            <div className="empty-cart-actions">
+              <Link className="primary" to="/catalog">
+                Перейти в каталог
+              </Link>
+              <Link className="empty-cart-home" to="/">
+                Главная страница
+              </Link>
+            </div>
           </section>
         ) : (
           <>

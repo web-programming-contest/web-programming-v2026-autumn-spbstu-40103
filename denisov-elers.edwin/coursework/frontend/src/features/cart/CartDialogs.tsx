@@ -44,7 +44,7 @@ export function CartDialogs(props: CartDialogsProps) {
             <img src={asset('order.png')} width="76" height="51" alt="" />
             <h2>Спасибо за заказ!</h2>
             <p>
-              Номер заказа №{props.orderId}.
+              Номер заказа {props.orderId}.
               <br />
               Мы свяжемся с вами в течение 10 минут, чтобы уточнить удобное для
               вас время доставки

@@ -116,10 +116,37 @@
   overflow-wrap: anywhere;
 }
 
-.empty h2 {
-  margin-bottom: 20px;
+.empty-cart {
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
-.empty p {
-  margin-bottom: 24px;
+.empty-cart > img {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.empty-cart h2 {
+  margin-bottom: 16px;
+}
+
+.empty-cart p {
+  margin-bottom: 32px;
+}
+
+.empty-cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.empty-cart-home {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }

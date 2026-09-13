@@ -169,5 +169,24 @@
       }
     ],
     "total": 49990
+  },
+  {
+    "id": "6063bca4-71b6-410c-9362-3fa3762f34ce",
+    "createdAt": "2026-09-13T08:53:29.436Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "card",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p7",
+        "quantity": 1,
+        "name": "Аппаратный ключ аутентификации",
+        "price": 10590
+      }
+    ],
+    "total": 10590
   }
 ]
