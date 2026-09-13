@@ -38,7 +38,7 @@ export function ProductModal({
           <div className="detail-buy">
             <strong className="price">{money(product.price)}</strong>
             {authenticated ? (
-              <Quantity product={product} showCartStatus />
+              <Quantity product={product} cartStatus="full" />
             ) : (
               <a href="/login">Войдите, чтобы добавить в корзину</a>
             )}

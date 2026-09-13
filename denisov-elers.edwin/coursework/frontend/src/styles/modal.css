@@ -34,6 +34,41 @@
   margin-top: 32px;
 }
 
+.modal.order-success {
+  padding: 49px 56px 56px;
+}
+
+.order-success .close {
+  top: 32px;
+  right: 32px;
+  width: 20px;
+  height: 20px;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+.order-success-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-success-content h2,
+.order-success-content p {
+  margin: 16px 0 0;
+}
+
+.order-success-content p {
+  color: #484848;
+  line-height: 24px;
+}
+
+.order-success-actions {
+  display: flex;
+  align-self: stretch;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
 .product-detail {
   display: grid;
   grid-template-columns: 392px 1fr;

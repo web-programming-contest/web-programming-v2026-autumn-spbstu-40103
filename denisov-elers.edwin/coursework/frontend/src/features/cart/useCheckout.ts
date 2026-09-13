@@ -27,7 +27,7 @@ export function useCheckout() {
       total: number,
       setBusy: (busy: boolean) => void,
       onError: (message: string) => void,
-      onSuccess: () => void,
+      onSuccess: (order: Order) => void,
     ) =>
     async (event: FormEvent) => {
       event.preventDefault();
@@ -40,9 +40,9 @@ export function useCheckout() {
 
       setBusy(true);
       try {
-        await api<Order>('/orders', {...form, items, total});
+        const order = await api<Order>('/orders', {...form, items, total});
         setForm(initialCheckout);
-        onSuccess();
+        onSuccess(order);
       } catch (error) {
         onError(
           error instanceof Error ? error.message : 'Не удалось оформить заказ',

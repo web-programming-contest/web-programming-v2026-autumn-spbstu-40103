@@ -32,7 +32,7 @@ export function ProductCard({
         </span>
         <Rating value={product.rating} />
       </button>
-      {!carousel && <Quantity product={product} />}
+      {!carousel && <Quantity product={product} cartStatus="compact" />}
     </article>
   );
 }

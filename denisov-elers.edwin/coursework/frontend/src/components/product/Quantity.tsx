@@ -4,19 +4,26 @@ import {asset} from '../../utils/assets';
 
 export function Quantity({
   product,
-  showCartStatus = false,
+  cartStatus,
 }: {
   product: Product;
-  showCartStatus?: boolean;
+  cartStatus?: 'compact' | 'full';
 }) {
   const {items, setQuantity} = useStore();
   const quantity =
     items.find((item) => item.productId === product.id)?.quantity || 0;
+  const status = cartStatus && (
+    <span className="primary cart-status" aria-live="polite">
+      <img width="16" height="16" src={asset('cart-icon.svg')} alt="" />
+      {cartStatus === 'full' ? `В корзине ${quantity} шт.` : `${quantity} шт.`}
+    </span>
+  );
 
   return (
     <div className="quantity" onClick={(event) => event.stopPropagation()}>
       {quantity ? (
         <>
+          {cartStatus === 'compact' && status}
           <button
             aria-label={`Уменьшить ${product.name}`}
             onClick={() => setQuantity(product.id, quantity - 1)}
@@ -31,12 +38,7 @@ export function Quantity({
           >
             +
           </button>
-          {showCartStatus && (
-            <span className="primary cart-status" aria-live="polite">
-              <img width="16" height="16" src={asset('cart-icon.svg')} alt="" />
-              В корзине {quantity} шт.
-            </span>
-          )}
+          {cartStatus === 'full' && status}
         </>
       ) : (
         <button className="primary" onClick={() => setQuantity(product.id, 1)}>

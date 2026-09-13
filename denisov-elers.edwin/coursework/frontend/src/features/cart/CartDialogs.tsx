@@ -1,14 +1,14 @@
 import type {Product} from '../../../../shared/types';
 import {Modal} from '../../components/Modal';
+import {asset} from '../../utils/assets';
 
 interface CartDialogsProps {
   goods: Product[];
   deleting: string[];
-  success: boolean;
+  orderId: string | null;
   closeDeleting: () => void;
   confirmDeleting: () => void;
   closeSuccess: () => void;
-  showHistory: () => void;
 }
 
 export function CartDialogs(props: CartDialogsProps) {
@@ -34,12 +34,27 @@ export function CartDialogs(props: CartDialogsProps) {
           </div>
         </Modal>
       )}
-      {props.success && (
-        <Modal title="Заказ оформлен" close={props.closeSuccess}>
-          <h2>Спасибо, ваш заказ успешно оформлен</h2>
-          <button className="primary" onClick={props.showHistory}>
-            История заказов
-          </button>
+      {props.orderId && (
+        <Modal
+          title="Спасибо за заказ!"
+          close={props.closeSuccess}
+          className="order-success"
+        >
+          <div className="order-success-content">
+            <img src={asset('order.png')} width="76" height="51" alt="" />
+            <h2>Спасибо за заказ!</h2>
+            <p>
+              Номер заказа №{props.orderId}.
+              <br />
+              Мы свяжемся с вами в течение 10 минут, чтобы уточнить удобное для
+              вас время доставки
+            </p>
+            <div className="order-success-actions">
+              <button className="primary" onClick={props.closeSuccess}>
+                Ок
+              </button>
+            </div>
+          </div>
         </Modal>
       )}
     </>

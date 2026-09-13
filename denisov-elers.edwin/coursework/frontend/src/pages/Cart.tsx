@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import {Link} from 'react-router-dom';
+import type {Order} from '../../../shared/types';
 import {useStore} from '../context/Store';
 import {CartDialogs} from '../features/cart/CartDialogs';
 import {CartItems} from '../features/cart/CartItems';
@@ -15,7 +16,7 @@ export function Cart() {
   const [deleting, setDeleting] = useState<string[]>([]);
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
-  const [success, setSuccess] = useState(false);
+  const [orderId, setOrderId] = useState<string | null>(null);
   const checkout = useCheckout();
   const {lines, total, count} = getCartSummary(items, goods);
   const selectedIds = selected.filter((id) =>
@@ -28,10 +29,10 @@ export function Cart() {
     setDeleting([]);
   }
 
-  function completeCheckout() {
+  function completeCheckout(order: Order) {
     clear();
     setSelected([]);
-    setSuccess(true);
+    setOrderId(order.id);
   }
 
   return (
@@ -99,14 +100,10 @@ export function Cart() {
         <CartDialogs
           goods={goods}
           deleting={deleting}
-          success={success}
+          orderId={orderId}
           closeDeleting={() => setDeleting([])}
           confirmDeleting={confirmDeleting}
-          closeSuccess={() => setSuccess(false)}
-          showHistory={() => {
-            setSuccess(false);
-            setTab('history');
-          }}
+          closeSuccess={() => setOrderId(null)}
         />
       </div>
     </main>

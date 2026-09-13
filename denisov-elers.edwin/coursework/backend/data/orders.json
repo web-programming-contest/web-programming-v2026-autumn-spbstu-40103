@@ -112,5 +112,62 @@
       }
     ],
     "total": 849830
+  },
+  {
+    "id": "f5ed8d01-36c5-4597-863d-b88219cb26df",
+    "createdAt": "2026-09-13T08:37:07.925Z",
+    "email": "",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "cash",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p7",
+        "quantity": 6,
+        "name": "Аппаратный ключ аутентификации",
+        "price": 10590
+      }
+    ],
+    "total": 63540
+  },
+  {
+    "id": "38d8fc4b-8104-42d0-a458-ed6bda8f5df3",
+    "createdAt": "2026-09-13T08:44:19.100Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "card",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p1",
+        "quantity": 1,
+        "name": "Смартфон 256 ГБ розовый",
+        "price": 102099
+      }
+    ],
+    "total": 102099
+  },
+  {
+    "id": "fefd8675-6331-4065-9a46-dde93b6cf486",
+    "createdAt": "2026-09-13T08:45:58.867Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "card",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p8",
+        "quantity": 1,
+        "name": "Шлем виртуальной реальности 128 ГБ",
+        "price": 49990
+      }
+    ],
+    "total": 49990
   }
 ]
