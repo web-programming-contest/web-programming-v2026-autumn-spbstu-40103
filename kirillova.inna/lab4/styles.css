@@ -1,0 +1,180 @@
+:root {
+  --bg: #dfd7f3;
+  --surface: #fff;
+  --text: #000;
+  --muted: #6b6b70;
+  --border: #b0b0c0;
+  --primary: #8b84e2;
+  --danger: #c86898;
+  --radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  flex: 1 1 140px;
+}
+
+input {
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+}
+
+button {
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.55rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: #fff;
+}
+
+input:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.danger,
+.delete {
+  background-color: var(--danger);
+}
+
+p[data-empty-hint] {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+ul[data-testid='entity-list'] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+li[data-testid='entity-card'] {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+li[data-testid='entity-card'] header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+li[data-testid='entity-card'] small {
+  color: var(--muted);
+}
+
+li[data-testid='entity-card'] p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.friend-form {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.friend-input-label {
+  flex: 1;
+  min-width: 0;
+}
+
+.friend-form input {
+  width: 100%;
+}
+
+.friend-form button {
+  min-width: 105px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.friend-form .btn-remove-friend,
+.friend-form .secondary {
+  background-color: var(--danger);
+  color: #fff;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card-actions button {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+}
+
+.card-actions .danger,
+.card-actions .delete {
+  background-color: var(--border);
+  color: #fff;
+}

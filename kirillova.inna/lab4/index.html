@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пользователи и друзья</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Пользователи и друзья</h1>
+
+      <section>
+        <h2>Добавить пользователя</h2>
+        <form data-testid="entity-form">
+          <label>
+            ID
+            <input
+              name="id"
+              type="number"
+              required
+              min="1"
+              step="1"
+              placeholder="Например, 1"
+            />
+          </label>
+          <label>
+            Имя
+            <input
+              name="name"
+              type="text"
+              required
+              placeholder="Например, Инна"
+            />
+          </label>
+          <button type="submit">Добавить пользователя</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Список пользователей</h2>
+        <p data-empty-hint>Пока нет ни одного пользователя.</p>
+        <ul data-testid="entity-list"></ul>
+      </section>
+    </main>
+
+    <template id="user-card-template">
+      <li data-testid="entity-card">
+        <header>
+          <strong data-field="name"></strong>
+          <small data-field="id"></small>
+        </header>
+
+        <p>Друзья: <span data-field="friends">нет</span></p>
+
+        <form data-role="add-friend-form" class="friend-form">
+          <label class="friend-input-label">
+            Добавить друга (ID)
+            <input type="number" name="friendId" min="1" step="1" required />
+          </label>
+          <button type="submit">Добавить</button>
+        </form>
+
+        <form data-role="remove-friend-form" class="friend-form">
+          <label class="friend-input-label">
+            Удалить друга (ID)
+            <input type="number" name="friendId" min="1" step="1" required />
+          </label>
+          <button type="submit" class="secondary">Удалить</button>
+        </form>
+
+        <footer class="card-actions">
+          <button type="button" class="delete" data-testid="delete-entity">
+            Удалить пользователя
+          </button>
+        </footer>
+      </li>
+    </template>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
