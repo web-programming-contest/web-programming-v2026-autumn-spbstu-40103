@@ -1,0 +1,51 @@
+export const BOOKS = [
+  {
+    id: 1,
+    title: 'Мастер и Маргарита',
+    cover: '../assets/covers/master-i-margarita.png',
+    rating: 4.8,
+    price: 590,
+    description: 'Роман Михаила Булгакова о добре, зле и настоящей любви.',
+  },
+  {
+    id: 2,
+    title: 'Преступление и наказание',
+    cover: '../assets/covers/prestuplenie-i-nakazanie.png',
+    rating: 4.6,
+    price: 470,
+    description: 'История Родиона Раскольникова и его нравственных терзаний.',
+  },
+  {
+    id: 3,
+    title: 'Метро 2033',
+    cover: '../assets/covers/metro-2033.png',
+    rating: 4.9,
+    price: 430,
+    description:
+      'Роман Дмитрия Глуховского о выживании людей в московском метро после ядерной войны.',
+  },
+  {
+    id: 4,
+    title: 'Метро 2034',
+    cover: '../assets/covers/metro-2034.png',
+    rating: 4.7,
+    price: 520,
+    description: 'Сиквел знаменитого романа Глуховского.',
+  },
+  {
+    id: 5,
+    title: 'Гарри Поттер и философский камень',
+    cover: '../assets/covers/garri-potter.png',
+    rating: 4.9,
+    price: 650,
+    description: 'Первая книга саги Джоан Роулинг о юном волшебнике.',
+  },
+  {
+    id: 6,
+    title: 'Маленький принц',
+    cover: '../assets/covers/malenkiy-prints.png',
+    rating: 4.8,
+    price: 350,
+    description: 'Философская сказка Антуана де Сент-Экзюпери.',
+  },
+];
