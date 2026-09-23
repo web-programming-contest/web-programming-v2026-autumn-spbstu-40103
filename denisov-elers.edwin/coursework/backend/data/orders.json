@@ -1,0 +1,192 @@
+[
+  {
+    "id": "72982c92-db7d-49e8-bffd-7c02b42bbe89",
+    "createdAt": "2026-09-10T18:42:41.793Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "da70c3ab-bb82-4714-8d7f-ccac661d7d62",
+    "createdAt": "2026-09-10T18:45:38.937Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "d61f54db-7509-4a43-b2c2-87acd9f7575b",
+    "createdAt": "2026-09-10T18:46:20.221Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "73ac87be-d4df-49ac-8129-c81e30da30c4",
+    "createdAt": "2026-09-10T18:47:20.929Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "ae6ec1fa-ab58-4f79-b165-c70e988f52a3",
+    "createdAt": "2026-09-10T18:48:54.408Z",
+    "email": "",
+    "phone": "+7 (999) 123-45-67",
+    "delivery": "delivery",
+    "address": "Санкт-Петербург, ул. Барочная, д. 7",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p3",
+        "quantity": 1,
+        "name": "Часы с GPS трекером, розовый",
+        "price": 2000
+      }
+    ],
+    "total": 2000
+  },
+  {
+    "id": "f04b2229-d8ed-4762-9f12-977debee5883",
+    "createdAt": "2026-09-10T18:55:28.855Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "cash",
+    "packaging": true,
+    "items": [
+      {
+        "productId": "p8",
+        "quantity": 17,
+        "name": "Шлем виртуальной реальности 128 ГБ",
+        "price": 49990
+      }
+    ],
+    "total": 849830
+  },
+  {
+    "id": "f5ed8d01-36c5-4597-863d-b88219cb26df",
+    "createdAt": "2026-09-13T08:37:07.925Z",
+    "email": "",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "cash",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p7",
+        "quantity": 6,
+        "name": "Аппаратный ключ аутентификации",
+        "price": 10590
+      }
+    ],
+    "total": 63540
+  },
+  {
+    "id": "38d8fc4b-8104-42d0-a458-ed6bda8f5df3",
+    "createdAt": "2026-09-13T08:44:19.100Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "card",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p1",
+        "quantity": 1,
+        "name": "Смартфон 256 ГБ розовый",
+        "price": 102099
+      }
+    ],
+    "total": 102099
+  },
+  {
+    "id": "fefd8675-6331-4065-9a46-dde93b6cf486",
+    "createdAt": "2026-09-13T08:45:58.867Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "card",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p8",
+        "quantity": 1,
+        "name": "Шлем виртуальной реальности 128 ГБ",
+        "price": 49990
+      }
+    ],
+    "total": 49990
+  },
+  {
+    "id": "6063bca4-71b6-410c-9362-3fa3762f34ce",
+    "createdAt": "2026-09-13T08:53:29.436Z",
+    "email": "edwindenisovelers9864@gmail.com",
+    "phone": "+79062087174",
+    "delivery": "pickup",
+    "address": "",
+    "payment": "card",
+    "packaging": false,
+    "items": [
+      {
+        "productId": "p7",
+        "quantity": 1,
+        "name": "Аппаратный ключ аутентификации",
+        "price": 10590
+      }
+    ],
+    "total": 10590
+  }
+]

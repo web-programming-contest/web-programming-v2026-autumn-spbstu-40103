@@ -1,0 +1,44 @@
+.login-page {
+  height: 940px;
+  position: relative;
+  background: #e5eeff;
+  overflow: hidden;
+}
+
+.login-page:before {
+  content: '';
+  position: absolute;
+  left: calc(50% - 1032px);
+  top: 28px;
+  width: 1997px;
+  height: 915px;
+  background: url('/assets/login-bg.png') no-repeat center/1997px 915px;
+  pointer-events: none;
+}
+
+.login-content {
+  position: relative;
+  width: 382px;
+  margin: 0 auto;
+  padding-top: 192px;
+}
+
+.login-content h1 {
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: 32px;
+}
+
+.login-content form {
+  background: #fff;
+  padding: 48px;
+  border-radius: 8px;
+}
+
+.login-content .field {
+  margin-bottom: 32px;
+}
+
+.login-content .error {
+  margin-bottom: 16px;
+}
