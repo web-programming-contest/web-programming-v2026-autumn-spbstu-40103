@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f6f6f6;
+}
+
+.page {
+  width: min(100% - 32px, 760px);
+  margin: 32px auto;
+}
+
+.recipe-form,
+.recipe-card {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.recipe-form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+button {
+  width: fit-content;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.recipe-form input,
+.recipe-form button,
+.recipe-card input,
+.recipe-card button {
+  font: inherit;
+}
+
+.recipe-form input,
+.recipe-card input {
+  width: 100%;
+  padding: 8px;
+}
+
+.recipe-list {
+  display: grid;
+  gap: 16px;
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+}
+
+.recipe-card ul,
+.recipe-card ol {
+  padding-left: 24px;
+}
+
+.card-controls {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.control-row {
+  display: flex;
+  gap: 8px;
+}
+
+.control-row input {
+  flex: 1;
+}
+
+.delete-button {
+  margin-top: 12px;
+}
+
+@media (width <= 520px) {
+  .page {
+    width: min(100% - 20px, 760px);
+    margin-block: 20px;
+  }
+
+  .control-row {
+    flex-direction: column;
+  }
+}

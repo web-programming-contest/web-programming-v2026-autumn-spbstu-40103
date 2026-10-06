@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Рецепты</h1>
+
+      <form class="recipe-form" data-testid="entity-form">
+        <label for="title">Название рецепта</label>
+        <input id="title" name="title" type="text" required />
+
+        <label for="ingredients">Ингредиенты через запятую</label>
+        <input id="ingredients" name="ingredients" type="text" />
+
+        <label for="steps">Шаги через точку с запятой</label>
+        <input id="steps" name="steps" type="text" />
+
+        <button type="submit">Добавить рецепт</button>
+      </form>
+
+      <section>
+        <h2>Список рецептов</h2>
+        <div class="recipe-list" data-testid="entity-list"></div>
+      </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
