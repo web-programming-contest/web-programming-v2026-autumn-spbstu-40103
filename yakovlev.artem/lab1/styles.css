@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.page {
+  padding: 24px 16px;
+}
+
+.sales-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+}
+
+.sales-caption {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.sales-table th,
+.sales-table td {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.sales-table thead th,
+.sales-table tfoot th,
+.sales-table tfoot td {
+  font-weight: 700;
+  background-color: #e0e0e0;
+}
+
+.sales-table th:nth-child(n + 2),
+.sales-table td:nth-child(n + 2) {
+  text-align: right;
+}
+
+.sales-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.sales-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sales-table tbody tr:hover {
+  background-color: #d3d3d3;
+}
