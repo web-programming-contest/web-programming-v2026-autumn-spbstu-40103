@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gadget Hub</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div data-site-header></div>
+    <main>
+      <section class="container hero-banner-section">
+        <a href="./catalog.html" aria-label="Перейти в каталог Gadget Hub">
+          <img class="hero-banner" src="./assets/images/figma/banner.png" alt="Super Sale — умный робот-друг Red solution Reddy Air" />
+        </a>
+      </section>
+
+      <section class="container carousel-section">
+        <div class="section-intro">
+          <div>
+            <span class="section-icon pink">◆</span>
+            <h2>Хиты продаж</h2>
+            <p>Самые популярные и проверенные гаджеты.</p>
+          </div>
+          <div class="carousel-arrows">
+            <button type="button" data-hits-prev aria-label="Назад">‹</button>
+            <button type="button" data-hits-next aria-label="Вперед">›</button>
+          </div>
+        </div>
+        <div class="carousel-grid" data-hits></div>
+      </section>
+
+      <section class="container carousel-section">
+        <div class="section-intro">
+          <div>
+            <span class="section-icon green">✦</span>
+            <h2>Новинки</h2>
+            <p>Все самое новое и свежее на рынке электроники.</p>
+          </div>
+          <div class="carousel-arrows">
+            <button type="button" data-new-prev aria-label="Назад">‹</button>
+            <button type="button" data-new-next aria-label="Вперед">›</button>
+          </div>
+        </div>
+        <div class="carousel-grid" data-new></div>
+      </section>
+
+      <section class="container advantages-section">
+        <h2>Преимущества</h2>
+        <div class="advantages-grid">
+          <article>
+            <strong>Утром заказали,<br />вечером получили</strong>
+            <span class="advantage-icon advantage-icon-delivery" aria-hidden="true">
+              <img src="./assets/images/figma/delivery-rocket.svg" alt="" />
+              <img class="advantage-icon-detail" src="./assets/images/figma/delivery-flame.svg" alt="" />
+            </span>
+          </article>
+          <article>
+            <strong>С товаром что-то не так?<br />Вернем деньги</strong>
+            <span class="advantage-icon" aria-hidden="true">
+              <img src="./assets/images/figma/refund.svg" alt="" />
+            </span>
+          </article>
+          <article>
+            <strong>Только оригинальные<br />товары</strong>
+            <span class="advantage-icon advantage-icon-original" aria-hidden="true">
+              <img src="./assets/images/figma/original-card.svg" alt="" />
+              <img class="advantage-icon-detail" src="./assets/images/figma/original-medal.svg" alt="" />
+            </span>
+          </article>
+        </div>
+      </section>
+
+      <section class="container contacts-section">
+        <h2>Работаем 24/7</h2>
+        <div class="contacts-grid">
+          <a href="tel:88006783424"><img src="./assets/images/figma/phone.svg" alt="" />8 (800) 678-34-24</a>
+          <a href="mailto:gadget@hub.ru"><img src="./assets/images/figma/email.svg" alt="" />gadget@hub.ru</a>
+          <span><img src="./assets/images/figma/location.svg" alt="" />Санкт-Петербург, ул. Барочная, д. 7, корпус 2</span>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
