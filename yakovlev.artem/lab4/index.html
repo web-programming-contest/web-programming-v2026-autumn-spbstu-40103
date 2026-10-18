@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Пользователи и друзья</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1 class="page-title">Пользователи и друзья</h1>
+
+      <form class="user-form" data-testid="entity-form">
+        <h2 class="form-title">Новый пользователь</h2>
+        <div class="form-row">
+          <label class="field">
+            <span class="field-label">ID</span>
+            <input
+              class="field-input"
+              type="number"
+              name="id"
+              min="0"
+              step="1"
+              required
+            />
+          </label>
+          <label class="field">
+            <span class="field-label">Имя</span>
+            <input
+              class="field-input"
+              type="text"
+              name="name"
+              autocomplete="off"
+              required
+            />
+          </label>
+          <button class="button button-primary" type="submit">
+            Добавить пользователя
+          </button>
+        </div>
+      </form>
+
+      <p class="status" data-testid="status" aria-live="polite"></p>
+
+      <section class="users" aria-label="Список пользователей">
+        <ul class="user-list" data-testid="entity-list"></ul>
+        <p class="empty" data-testid="empty-state">
+          Пользователей пока нет. Добавьте первого через форму выше.
+        </p>
+        <p class="summary" data-testid="summary"></p>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
