@@ -1,0 +1,48 @@
+version: "3.9"
+
+name: gadgethub
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: gadgethub
+      POSTGRES_PASSWORD: gadgethub
+      POSTGRES_DB: gadgethub
+    ports:
+      - "5432:5432"
+    volumes:
+      - gadgethub_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gadgethub -d gadgethub"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  back:
+    build:
+      context: ./back
+    restart: unless-stopped
+    environment:
+      PORT: 8080
+      DATABASE_URL: postgres://gadgethub:gadgethub@postgres:5432/gadgethub?sslmode=disable
+      CORS_ORIGIN: http://localhost:3000
+      SECURE_COOKIE: "false"
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  front:
+    build:
+      context: ./front
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - back
+
+volumes:
+  gadgethub_pgdata:

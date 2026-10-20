@@ -1,0 +1,309 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 48px;
+  padding: 12px 32px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-s);
+  font-weight: 500;
+  line-height: 24px;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+.btn--primary {
+  background: var(--blue);
+  color: #fff;
+}
+.btn--primary:hover {
+  background: var(--navy);
+}
+.btn--primary:focus-visible {
+  background: var(--navy);
+  border-color: var(--blue-light);
+  outline: none;
+}
+.btn--primary:disabled {
+  background: var(--blue-light);
+  cursor: not-allowed;
+}
+.btn--pink {
+  background: var(--pink);
+  color: #fff;
+}
+.btn--pink:hover {
+  background: var(--pink-hover);
+}
+.btn--pink:focus-visible {
+  background: var(--pink-hover);
+  border-color: var(--blue-light);
+  outline: none;
+}
+.btn--pink:disabled {
+  background: var(--pink-light);
+}
+.btn--link {
+  padding: 12px 0;
+  background: transparent;
+  color: var(--blue);
+}
+.btn--link:hover {
+  color: var(--navy);
+}
+.btn__cart-icon {
+  width: 16px;
+  height: 16px;
+  background-color: currentColor;
+  -webkit-mask: url('../assets/icons/card.svg') center / contain no-repeat;
+  mask: url('../assets/icons/card.svg') center / contain no-repeat;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.badge--new {
+  background: var(--green);
+}
+.badge--hit {
+  background: var(--pink);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  color: var(--text-normal);
+}
+.rating__star {
+  width: 20px;
+  height: 20px;
+}
+
+.field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.field__label {
+  font-size: 14px;
+  line-height: 21px;
+}
+.field__input,
+.field__select {
+  width: 100%;
+  height: 48px;
+  padding: 12px 16px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-s);
+  background: var(--gray-1);
+  color: var(--text-dark);
+  line-height: 24px;
+  outline: none;
+  transition:
+    border-color 0.15s,
+    background-color 0.15s;
+}
+.field__input::placeholder {
+  color: var(--text-ultralight);
+}
+.field__input:hover,
+.field__select:hover {
+  border-color: var(--blue-light);
+  background-color: var(--bg-muted);
+}
+.field__input:focus,
+.field__select:focus {
+  border: 2px solid var(--blue-light);
+  padding: 11px 15px;
+  background-color: var(--gray-1);
+}
+.field__input:disabled {
+  background-color: var(--bg-muted);
+  color: var(--text-ultralight);
+}
+.field__star {
+  position: absolute;
+  top: 18px;
+  right: -12px;
+  color: var(--pink);
+  font-size: 20px;
+  line-height: 1;
+}
+.field--error .field__input,
+.field--error .field__select {
+  border: 1px solid var(--pink);
+  padding: 12px 16px;
+}
+.field__error {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 2px;
+  color: var(--pink);
+  font-size: 14px;
+  line-height: 21px;
+  white-space: nowrap;
+}
+.field__select {
+  appearance: none;
+  padding-right: 44px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23115EFB' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  cursor: pointer;
+}
+.field__select--empty {
+  color: var(--text-ultralight);
+}
+.field__select option {
+  color: var(--text-dark);
+}
+
+.checkbox,
+.radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 24px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: var(--radius-s);
+  transition: background-color 0.15s;
+}
+.checkbox input,
+.radio input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.checkbox__box,
+.radio__box {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background: var(--gray-2);
+  transition: background-color 0.15s;
+}
+.checkbox__box {
+  position: relative;
+  border-radius: 4px;
+}
+.radio__box {
+  position: relative;
+  border-radius: 50%;
+}
+.checkbox:hover,
+.radio:hover {
+  background: var(--bg-muted);
+  color: var(--navy);
+  margin: -4px -8px;
+  padding: 4px 8px;
+}
+.checkbox:hover .checkbox__box,
+.radio:hover .radio__box {
+  background: #dfe2e5;
+}
+.checkbox input:checked + .checkbox__box {
+  background: var(--blue);
+}
+.checkbox input:checked + .checkbox__box::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 5px;
+  width: 12px;
+  height: 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 4l3.5 3L11 1' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+}
+.radio input:checked + .radio__box {
+  background: var(--blue);
+}
+.radio input:checked + .radio__box::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 50%;
+  background: #fff;
+}
+.checkbox input:focus-visible + .checkbox__box,
+.radio input:focus-visible + .radio__box {
+  outline: 2px solid var(--blue-light);
+  outline-offset: 2px;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  width: max-content;
+  border-bottom: 2px solid var(--blue-grey);
+}
+.tabs__item {
+  position: relative;
+  padding: 0 40px 17px;
+  white-space: nowrap;
+  border: 0;
+  background: none;
+  color: var(--blue);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+}
+.tabs__item:hover {
+  color: var(--navy);
+}
+.tabs__item--active {
+  color: var(--text-dark);
+}
+.tabs__item--active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 4px;
+  background: var(--blue);
+}
+
+.qty {
+  display: inline-flex;
+  align-items: center;
+}
+.qty__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: var(--gray-2);
+  color: var(--blue);
+}
+.qty__btn:hover {
+  background: var(--gray-1);
+}
+.qty__btn:active {
+  background: var(--blue);
+  color: #fff;
+}
+.qty__value {
+  width: 66px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}

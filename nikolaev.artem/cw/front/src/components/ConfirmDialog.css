@@ -1,0 +1,28 @@
+.confirm {
+  min-height: 300px;
+  padding: 80px 56px 56px;
+}
+.confirm__message {
+  font-size: 32px;
+  line-height: 42px;
+  overflow-wrap: anywhere;
+}
+.confirm__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  margin-top: 32px;
+}
+.confirm__cancel {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--pink);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.confirm__cancel:hover {
+  color: var(--pink-hover);
+}

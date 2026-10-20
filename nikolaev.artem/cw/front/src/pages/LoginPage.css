@@ -1,0 +1,35 @@
+.login-page {
+  position: relative;
+  overflow: hidden;
+  min-height: 940px;
+  background: #e5eeff;
+}
+.login-page__bg {
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 1032px);
+  width: 1997px;
+  max-width: none;
+  height: 915px;
+  pointer-events: none;
+}
+.login-page__box {
+  position: relative;
+  width: 382px;
+  margin: 0 auto;
+  padding-top: 192px;
+}
+.login-page__title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 42px;
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 32px;
+  padding: 48px;
+  border-radius: var(--radius-s);
+  background: #fff;
+}

@@ -1,0 +1,35 @@
+.price-slider {
+  padding: 0 2px;
+}
+.price-slider__track {
+  position: relative;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--gray-1);
+  cursor: pointer;
+}
+.price-slider__range {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: var(--green);
+  pointer-events: none;
+}
+.price-slider__handle {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border-radius: 50%;
+  background: var(--blue);
+  cursor: grab;
+  transition: background-color 0.15s;
+}
+.price-slider__handle:hover,
+.price-slider__handle:active {
+  background: var(--navy);
+}
+.price-slider__handle:active {
+  cursor: grabbing;
+}

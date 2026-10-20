@@ -1,0 +1,28 @@
+.sort-tabs {
+  display: flex;
+}
+.sort-tabs__item {
+  height: 32px;
+  padding: 4px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: none;
+  color: var(--blue);
+  line-height: 24px;
+  transition: background-color 0.15s;
+}
+.sort-tabs__item span {
+  border-bottom: 1px dashed currentColor;
+  padding-bottom: 1px;
+}
+.sort-tabs__item:hover {
+  background: var(--bg-muted);
+}
+.sort-tabs__item--active,
+.sort-tabs__item--active:hover {
+  background: var(--blue-light);
+  color: #fff;
+}
+.sort-tabs__item--active span {
+  border-bottom-color: transparent;
+}
