@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1 class="title">Регистрация</h1>
+      <form class="form" action="#" method="post">
+        <div class="field">
+          <label class="label" for="first-name">Имя</label>
+          <input
+            class="input"
+            id="first-name"
+            name="firstName"
+            type="text"
+            autocomplete="given-name"
+            required
+          />
+        </div>
+        <div class="field">
+          <label class="label" for="last-name">Фамилия</label>
+          <input
+            class="input"
+            id="last-name"
+            name="lastName"
+            type="text"
+            autocomplete="family-name"
+            required
+          />
+        </div>
+        <div class="field">
+          <label class="label" for="email">Email</label>
+          <input
+            class="input"
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          />
+        </div>
+        <div class="field">
+          <label class="label" for="password">Пароль</label>
+          <input
+            class="input"
+            id="password"
+            name="password"
+            type="password"
+            autocomplete="new-password"
+            required
+          />
+        </div>
+        <div class="field">
+          <label class="label" for="password-confirm"
+            >Подтверждение пароля</label
+          >
+          <input
+            class="input"
+            id="password-confirm"
+            name="passwordConfirm"
+            type="password"
+            autocomplete="new-password"
+            required
+          />
+        </div>
+        <div class="field">
+          <label class="label" for="birth-date">Дата рождения</label>
+          <input
+            class="input"
+            id="birth-date"
+            name="birthDate"
+            type="date"
+            autocomplete="bday"
+            required
+          />
+        </div>
+        <div class="field">
+          <label class="label" for="country">Страна</label>
+          <select
+            class="input"
+            id="country"
+            name="country"
+            autocomplete="country-name"
+            required
+          >
+            <option value="">Выберите страну</option>
+            <option value="Россия">Россия</option>
+            <option value="Беларусь">Беларусь</option>
+            <option value="Казахстан">Казахстан</option>
+            <option value="Молдова">Молдова</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="checkbox">
+            <input name="agreement" type="checkbox" required />
+            <span>Я согласен с условиями</span>
+          </label>
+        </div>
+        <button class="button" type="submit">Зарегистрироваться</button>
+      </form>
+    </main>
+  </body>
+</html>
