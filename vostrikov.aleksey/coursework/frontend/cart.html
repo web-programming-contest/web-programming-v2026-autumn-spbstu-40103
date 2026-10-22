@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина — Gadget Hub</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div data-site-header></div>
+    <main class="container cart-main">
+      <div class="tabs">
+        <button class="tab active" type="button" data-tab="cart">Корзина</button>
+        <button class="tab" type="button" data-tab="orders">История заказов</button>
+      </div>
+
+      <section data-cart-panel>
+        <div class="cart-toolbar">
+          <label class="check-row"><input type="checkbox" data-select-all /> <span>Выбрать все</span></label>
+          <button class="link-danger" type="button" data-bulk-delete hidden>Удалить выбранные</button>
+        </div>
+        <div class="cart-card" data-cart-list></div>
+        <div class="empty-cart" data-cart-empty hidden>
+          <div class="empty-cart-icon">🛒</div>
+          <h2>Пока пусто</h2>
+          <p>Ознакомьтесь с новинками и хитами на главной или найдите нужное в каталоге.</p>
+          <div><a class="btn btn-blue" href="./catalog.html">Перейти в каталог</a> <a class="btn btn-link" href="./index.html">Главная страница</a></div>
+        </div>
+
+        <section class="checkout-section" data-checkout hidden>
+          <h2>Оформление заказа</h2>
+          <form class="checkout-form" data-checkout-form novalidate>
+            <div class="form-grid two-cols">
+              <div class="form-field">
+                <label for="phone">Телефон *</label>
+                <input id="phone" name="phone" placeholder="+7 999 123-45-67" />
+                <span class="field-error"></span>
+              </div>
+              <div class="form-field">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="mail@example.com" />
+                <span class="field-error"></span>
+              </div>
+            </div>
+
+            <div class="radio-row">
+              <label><input type="radio" name="deliveryType" value="pickup" checked /> Самовывоз</label>
+              <label><input type="radio" name="deliveryType" value="delivery" /> Доставка</label>
+            </div>
+
+            <div class="form-field" data-address-field hidden>
+              <label for="address">Адрес доставки *</label>
+              <input id="address" name="address" />
+              <span class="field-error"></span>
+            </div>
+
+            <div class="form-field select-field">
+              <label for="payment">Способ оплаты *</label>
+              <select id="payment" name="payment">
+                <option value="">Не выбрано</option>
+                <option value="card">По карте</option>
+                <option value="cash">Наличными</option>
+              </select>
+              <span class="field-error"></span>
+            </div>
+
+            <label class="check-row"><input type="checkbox" name="packaging" /> <span>Нужна упаковка</span></label>
+            <button class="btn btn-blue" type="submit">Оформить заказ</button>
+          </form>
+        </section>
+      </section>
+
+      <section data-orders-panel hidden>
+        <div class="orders-card" data-orders-list></div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+
+    <dialog class="modal small-modal" data-confirm-modal>
+      <div class="modal-card">
+        <button class="modal-close" type="button" data-confirm-cancel>×</button>
+        <h2>Подтверждение</h2>
+        <p data-confirm-text></p>
+        <div class="modal-actions">
+          <button class="btn btn-link" type="button" data-confirm-cancel onclick="this.closest('dialog').close()">Отмена</button>
+          <button class="btn btn-pink" type="button" data-confirm-ok>Да, удалить</button>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog class="modal small-modal" data-success-modal>
+      <div class="modal-card">
+        <button class="modal-close" type="button" data-success-close>×</button>
+        <p class="success-message" data-success-text></p>
+        <button class="btn btn-blue" type="button" data-success-close onclick="this.closest('dialog').close()">Ок</button>
+      </div>
+    </dialog>
+    <script type="module" src="./js/cart.js"></script>
+  </body>
+</html>
