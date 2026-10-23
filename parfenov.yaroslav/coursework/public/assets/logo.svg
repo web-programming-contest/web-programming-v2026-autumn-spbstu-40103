@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 48" role="img" aria-labelledby="title">
+  <title id="title">Gadget Hub</title>
+  <rect width="48" height="48" rx="14" fill="#115EFB"/>
+  <path d="M25.5 7v11h8.3a3.2 3.2 0 0 1 3.2 3.2v2.3a3.2 3.2 0 0 1-3.2 3.2h-8.3V41l-14-19 14-15Z" fill="#FFDF37"/>
+  <text x="59" y="22" fill="#0A2D72" font-family="Arial, sans-serif" font-size="18" font-weight="800">GADGET</text>
+  <text x="59" y="42" fill="#115EFB" font-family="Arial, sans-serif" font-size="18" font-weight="800">HUB</text>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "name": "gadget-hub-coursework",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gadget Hub course project with a React frontend and an Express backend.",
+  "scripts": {
+    "start": "node start.js",
+    "frontend": "vite --host 127.0.0.1",
+    "backend": "node backend/server.js",
+    "build": "vite build",
+    "test": "node --test",
+    "format": "prettier --write . --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "prettier": "^3.9.9",
+    "vite": "^5.4.20"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
