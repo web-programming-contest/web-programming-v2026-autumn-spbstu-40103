@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Товары и поставщики</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Товары и поставщики</h1>
+
+      <form data-testid="entity-form" class="product-form" autocomplete="off">
+        <label>
+          Номер
+          <input type="number" name="id" min="1" step="1" />
+        </label>
+        <label>
+          Название
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Поставщики (через запятую)
+          <input type="text" name="suppliers" />
+        </label>
+        <button type="submit">Добавить товар</button>
+      </form>
+
+      <p id="message" class="message" aria-live="polite"></p>
+
+      <div data-testid="entity-list" class="product-list"></div>
+      <p id="empty" class="empty">Товаров пока нет</p>
+
+      <section class="stats">
+        <h2>Аналитика</h2>
+        <p>Все поставщики: <span id="stat-suppliers">—</span></p>
+        <p>Максимум поставщиков: <span id="stat-max">—</span></p>
+        <p>По количеству поставщиков: <span id="stat-groups">—</span></p>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
