@@ -1,0 +1,368 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/Rubik-VariableFont_wght.ttf');
+}
+
+@mixin wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 1240px;
+}
+
+body {
+  font-family: 'Rubik';
+  background-color: #ffffff;
+  margin: 0;
+  line-height: 150%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 6px 0;
+  font-weight: 500;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+span {
+  font-family: 'Rubik';
+  color: #115efb;
+}
+
+*:focus-visible {
+  outline: 2px solid #84adff;
+}
+
+/* header */
+header {
+  height: 80px;
+
+  .wrapper {
+    @include wrapper;
+  }
+
+  p {
+    color: #115efb;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: row;
+
+    a {
+      border-radius: 8px;
+    }
+
+    .item {
+      border-radius: 8px;
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+      padding: 12px 20px;
+    }
+
+    a.active,
+    .item:hover {
+      background: #f3f6fa;
+    }
+
+    .amount-goods {
+      width: 24px;
+      border-radius: 50%;
+      color: white;
+      text-align: center;
+      background: #ff60c3;
+    }
+  }
+}
+
+/* Footer */
+footer {
+  background: #0c368a;
+  color: #b7ceff;
+
+  h2 {
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .wrapper {
+    @include wrapper;
+
+    align-items: normal !important;
+    padding: 42px 0;
+  }
+
+  .about-company {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .phone {
+    a {
+      display: flex;
+      flex-direction: row;
+      gap: 13px;
+      color: #b7ceff;
+    }
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  .social-media {
+    display: flex;
+    gap: 20px;
+
+    a {
+      height: 36px;
+    }
+
+    img {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
+
+/* Шаблон поля ввода */
+.input-template {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: 14px;
+  }
+
+  label:has(+ input:active) {
+    color: #115efb;
+  }
+
+  label:has(+ input:disabled) {
+    color: #b9b9b9;
+  }
+
+  input {
+    box-sizing: border-box;
+    padding: 0 16px;
+    background: #e4e7eb;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    height: 48px;
+    transition: 0.2s background;
+
+    &:hover {
+      outline: 2px solid #84adff;
+    }
+
+    &:active {
+      background: #f3f6fa;
+    }
+
+    &::placeholder {
+      color: #b9b9b9;
+    }
+
+    &:disabled {
+      background: #f3f6fa;
+      cursor: not-allowed;
+    }
+  }
+}
+
+/* Шаблон чек бокса */
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 24px;
+  border-radius: 8px;
+  transition:
+    0.1s background,
+    0.1s padding;
+  cursor: pointer;
+  padding: 2px 0;
+  user-select: none;
+
+  &:hover {
+    padding: 2px 2px 2px 4px;
+    background: #f3f6fa;
+  }
+
+  &:focus-visible {
+    padding-left: 4px;
+    background: #f3f6fa;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  input {
+    display: none;
+  }
+
+  .checkmark {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    background: #e4e7eb;
+    position: relative;
+    transition: 0.1s;
+  }
+
+  input:checked + .checkmark {
+    background: #115efb;
+  }
+
+  input:checked + .checkmark::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 4px;
+
+    width: 4px;
+    height: 8px;
+
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+}
+
+// Шаблон кнопки
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 10px;
+  font-size: 16px;
+  padding: 15px 0;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: 0.3s background;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.add-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 27px;
+  max-height: 49px;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+
+    .plus-minus {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      width: 32px;
+      height: 32px;
+    }
+
+    .plus-minus:hover {
+      background: #115efb;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+}
+
+.button-blue-template {
+  background: #115efb;
+
+  &:hover {
+    background: #0c368a;
+  }
+
+  &:disabled {
+    background: #84adff;
+    cursor: not-allowed;
+  }
+
+  span {
+    color: #ffffff;
+  }
+}
+
+.button-pink-template {
+  background: #ff60c3;
+
+  &:hover {
+    background: #cd3c96;
+  }
+
+  &:disabled {
+    background: #f2a2d4;
+    cursor: not-allowed;
+  }
+
+  span {
+    color: #ffffff;
+  }
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 286px;
+  height: 320px;
+  position: relative;
+  background: #eceff3;
+  border-radius: 20px;
+
+  img {
+    mix-blend-mode: multiply;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

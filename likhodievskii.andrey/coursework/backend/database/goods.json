@@ -1,0 +1,2046 @@
+[
+  {
+    "id": 1,
+    "name": "Внешний аккумулятор 10000mAh, белый",
+    "price": 2499,
+    "rating": 4.8,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Компактный внешний аккумулятор с ёмкостью 10000 мАч для зарядки смартфонов и планшетов в дороге.",
+    "characteristics": [
+      {
+        "label": "Ёмкость",
+        "value": "10000 мАч"
+      },
+      {
+        "label": "Выходной ток",
+        "value": "2.1А"
+      },
+      {
+        "label": "Разъёмы",
+        "value": "USB-A, USB-C"
+      },
+      {
+        "label": "Вес",
+        "value": "220 г"
+      },
+      {
+        "label": "Гарантия",
+        "value": "1 год"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      },
+      {
+        "label": "Индикатор заряда",
+        "value": "LED"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Внешний аккумулятор 10000mAh, черный",
+    "price": 2399,
+    "rating": 4.7,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Надёжный внешний аккумулятор в лаконичном чёрном корпусе с поддержкой быстрой зарядки.",
+    "characteristics": [
+      {
+        "label": "Ёмкость",
+        "value": "10000 мАч"
+      },
+      {
+        "label": "Выходной ток",
+        "value": "2.1А"
+      },
+      {
+        "label": "Разъёмы",
+        "value": "USB-A, USB-C"
+      },
+      {
+        "label": "Вес",
+        "value": "220 г"
+      },
+      {
+        "label": "Гарантия",
+        "value": "1 год"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      },
+      {
+        "label": "Индикатор заряда",
+        "value": "LED"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth гарнитура, черный",
+    "price": 1899,
+    "rating": 4.5,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Беспроводная Bluetooth гарнитура с шумоподавлением микрофона для чётких звонков и музыки.",
+    "characteristics": [
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.1"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 8 часов"
+      },
+      {
+        "label": "Дальность",
+        "value": "до 10 м"
+      },
+      {
+        "label": "Микрофон",
+        "value": "Да, с шумоподавлением"
+      },
+      {
+        "label": "Зарядка",
+        "value": "USB-C"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth гарнитура, серый",
+    "price": 1899,
+    "rating": 4.3,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Удобная беспроводная гарнитура в сером цвете с высококачественным звуком и длительным временем работы.",
+    "characteristics": [
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.1"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 8 часов"
+      },
+      {
+        "label": "Дальность",
+        "value": "до 10 м"
+      },
+      {
+        "label": "Микрофон",
+        "value": "Да, с шумоподавлением"
+      },
+      {
+        "label": "Зарядка",
+        "value": "USB-C"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Беспроводная акустика",
+    "price": 3499,
+    "rating": 4.6,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Портативная беспроводная колонка с мощным звуком и защитой от воды для использования в любых условиях.",
+    "characteristics": [
+      {
+        "label": "Мощность",
+        "value": "10 Вт"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.0"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 12 часов"
+      },
+      {
+        "label": "Защита",
+        "value": "IPX5"
+      },
+      {
+        "label": "Зарядка",
+        "value": "USB-C"
+      },
+      {
+        "label": "Тип звука",
+        "value": "Стерео"
+      },
+      {
+        "label": "Материал корпуса",
+        "value": "Пластик / ткань"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Смартфон 256 ГБ фиолетовый",
+    "price": 34990,
+    "rating": 4.7,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Стильный смартфон с 256 ГБ памяти в фиолетовом корпусе, мощным процессором и камерой высокого разрешения.",
+    "characteristics": [
+      {
+        "label": "Память",
+        "value": "256 ГБ"
+      },
+      {
+        "label": "Экран",
+        "value": "6.7\", AMOLED, 120 Гц"
+      },
+      {
+        "label": "Камера",
+        "value": "50 Мп + 12 Мп + 5 Мп"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "5000 мАч"
+      },
+      {
+        "label": "ОС",
+        "value": "Android 14"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Разрешение экрана",
+        "value": "2400×1080"
+      },
+      {
+        "label": "Процессор",
+        "value": "8-ядерный"
+      },
+      {
+        "label": "Фронтальная камера",
+        "value": "16 Мп"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Смартфон 256 ГБ черный",
+    "price": 34990,
+    "rating": 0.0,
+    "isBestseller": true,
+    "isNovelty": true,
+    "description": "Новинка — смартфон в чёрном корпусе с 256 ГБ памяти, флагманским процессором и тройной камерой.",
+    "characteristics": [
+      {
+        "label": "Память",
+        "value": "256 ГБ"
+      },
+      {
+        "label": "Экран",
+        "value": "6.7\", AMOLED, 120 Гц"
+      },
+      {
+        "label": "Камера",
+        "value": "50 Мп + 12 Мп + 5 Мп"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "5000 мАч"
+      },
+      {
+        "label": "ОС",
+        "value": "Android 14"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Разрешение экрана",
+        "value": "2400×1080"
+      },
+      {
+        "label": "Процессор",
+        "value": "8-ядерный"
+      },
+      {
+        "label": "Фронтальная камера",
+        "value": "16 Мп"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Смартфон 256 ГБ белый",
+    "price": 34990,
+    "rating": 4.6,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Элегантный смартфон в белом цвете с ёмким хранилищем и современным дизайном без рамок.",
+    "characteristics": [
+      {
+        "label": "Память",
+        "value": "256 ГБ"
+      },
+      {
+        "label": "Экран",
+        "value": "6.7\", AMOLED, 120 Гц"
+      },
+      {
+        "label": "Камера",
+        "value": "50 Мп + 12 Мп + 5 Мп"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "5000 мАч"
+      },
+      {
+        "label": "ОС",
+        "value": "Android 14"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Разрешение экрана",
+        "value": "2400×1080"
+      },
+      {
+        "label": "Процессор",
+        "value": "8-ядерный"
+      },
+      {
+        "label": "Фронтальная камера",
+        "value": "16 Мп"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Часы с GPS трекером черные",
+    "price": 8990,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Умные часы с встроенным GPS трекером для отслеживания маршрутов и мониторинга здоровья.",
+    "characteristics": [
+      {
+        "label": "GPS",
+        "value": "Да, встроенный"
+      },
+      {
+        "label": "Экран",
+        "value": "1.4\", TFT"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 7 дней"
+      },
+      {
+        "label": "Защита",
+        "value": "IP68"
+      },
+      {
+        "label": "Датчики",
+        "value": "Пульс, SpO2, шагомер"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Android, iOS"
+      },
+      {
+        "label": "Уведомления",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Часы с GPS трекером синие",
+    "price": 8990,
+    "rating": 4.3,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Спортивные часы с GPS в синем корпусе для точного отслеживания тренировок на улице.",
+    "characteristics": [
+      {
+        "label": "GPS",
+        "value": "Да, встроенный"
+      },
+      {
+        "label": "Экран",
+        "value": "1.4\", TFT"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 7 дней"
+      },
+      {
+        "label": "Защита",
+        "value": "IP68"
+      },
+      {
+        "label": "Датчики",
+        "value": "Пульс, SpO2, шагомер"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Android, iOS"
+      },
+      {
+        "label": "Уведомления",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Фитнес-браслет ASK-B19 зеленый",
+    "price": 3290,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Новый фитнес-браслет ASK-B19 в зелёном цвете с мониторингом сна, пульса и уведомлениями со смартфона.",
+    "characteristics": [
+      {
+        "label": "Экран",
+        "value": "0.96\", OLED"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 10 дней"
+      },
+      {
+        "label": "Защита",
+        "value": "IP67"
+      },
+      {
+        "label": "Датчики",
+        "value": "Пульс, шагомер, сон"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Android, iOS"
+      },
+      {
+        "label": "Уведомления",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Фитнес-браслет ASK-B19 черный",
+    "price": 3290,
+    "rating": 4.4,
+    "isBestseller": true,
+    "isNovelty": true,
+    "description": "Популярный фитнес-браслет ASK-B19 в чёрном корпусе с функциями мониторинга здоровья и спорта.",
+    "characteristics": [
+      {
+        "label": "Экран",
+        "value": "0.96\", OLED"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 10 дней"
+      },
+      {
+        "label": "Защита",
+        "value": "IP67"
+      },
+      {
+        "label": "Датчики",
+        "value": "Пульс, шагомер, сон"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Android, iOS"
+      },
+      {
+        "label": "Уведомления",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Наушники белые",
+    "price": 2990,
+    "rating": 4.5,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Беспроводные наушники-вкладыши в белом цвете с чистым звуком и удобной посадкой для повседневного использования.",
+    "characteristics": [
+      {
+        "label": "Тип",
+        "value": "Внутриканальные"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.2"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 6 часов + 18 ч от кейса"
+      },
+      {
+        "label": "Микрофон",
+        "value": "Да"
+      },
+      {
+        "label": "Зарядка кейса",
+        "value": "USB-C"
+      },
+      {
+        "label": "Кодеки",
+        "value": "SBC, AAC"
+      },
+      {
+        "label": "Шумоподавление",
+        "value": "Пассивное"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Наушники синие",
+    "price": 2990,
+    "rating": 4.3,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Яркие беспроводные наушники в синем цвете с качественным звуком и встроенным микрофоном.",
+    "characteristics": [
+      {
+        "label": "Тип",
+        "value": "Внутриканальные"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.2"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 6 часов + 18 ч от кейса"
+      },
+      {
+        "label": "Микрофон",
+        "value": "Да"
+      },
+      {
+        "label": "Зарядка кейса",
+        "value": "USB-C"
+      },
+      {
+        "label": "Кодеки",
+        "value": "SBC, AAC"
+      },
+      {
+        "label": "Шумоподавление",
+        "value": "Пассивное"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Наушники черные",
+    "price": 2990,
+    "rating": 4.6,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Бестселлер! Беспроводные наушники в классическом чёрном цвете с глубоким басом и шумоизоляцией.",
+    "characteristics": [
+      {
+        "label": "Тип",
+        "value": "Внутриканальные"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.2"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 6 часов + 18 ч от кейса"
+      },
+      {
+        "label": "Микрофон",
+        "value": "Да"
+      },
+      {
+        "label": "Зарядка кейса",
+        "value": "USB-C"
+      },
+      {
+        "label": "Кодеки",
+        "value": "SBC, AAC"
+      },
+      {
+        "label": "Шумоподавление",
+        "value": "Пассивное"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Видеокамера для блогера",
+    "price": 12490,
+    "rating": 4.5,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Компактная видеокамера для съёмки контента в высоком качестве с поворотным экраном и стабилизацией.",
+    "characteristics": [
+      {
+        "label": "Разрешение видео",
+        "value": "4K 30fps"
+      },
+      {
+        "label": "Матрица",
+        "value": "1/2.3\", 20 Мп"
+      },
+      {
+        "label": "Стабилизация",
+        "value": "Электронная EIS"
+      },
+      {
+        "label": "Экран",
+        "value": "3\", поворотный"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "1500 мАч"
+      },
+      {
+        "label": "Фото",
+        "value": "20 Мп"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Микрофон с разъемом Type-C",
+    "price": 1990,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Компактный петличный микрофон с разъёмом Type-C для записи чёткого звука на смартфон или планшет.",
+    "characteristics": [
+      {
+        "label": "Разъём",
+        "value": "USB Type-C"
+      },
+      {
+        "label": "Тип",
+        "value": "Всенаправленный"
+      },
+      {
+        "label": "Частотный диапазон",
+        "value": "20 Гц — 20 кГц"
+      },
+      {
+        "label": "Кабель",
+        "value": "1.5 м"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Android, планшеты"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Чехол-подвеска силиконовый с карабином, красный",
+    "price": 490,
+    "rating": 4.1,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Силиконовый чехол-подвеска в красном цвете с металлическим карабином для удобного крепления к сумке или рюкзаку.",
+    "characteristics": [
+      {
+        "label": "Материал",
+        "value": "Силикон"
+      },
+      {
+        "label": "Карабин",
+        "value": "Металлический"
+      },
+      {
+        "label": "Универсальный",
+        "value": "Да"
+      },
+      {
+        "label": "Длина шнура",
+        "value": "25 см"
+      },
+      {
+        "label": "Гарантия",
+        "value": "6 месяцев"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Чехол-подвеска силиконовый с карабином, белый",
+    "price": 490,
+    "rating": 4.2,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Популярный силиконовый чехол-подвеска в белом цвете с надёжным карабином для крепления гаджетов.",
+    "characteristics": [
+      {
+        "label": "Материал",
+        "value": "Силикон"
+      },
+      {
+        "label": "Карабин",
+        "value": "Металлический"
+      },
+      {
+        "label": "Универсальный",
+        "value": "Да"
+      },
+      {
+        "label": "Длина шнура",
+        "value": "25 см"
+      },
+      {
+        "label": "Гарантия",
+        "value": "6 месяцев"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Чехол-подвеска силиконовый с карабином, серый",
+    "price": 490,
+    "rating": 4.0,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Практичный силиконовый чехол-подвеска в сером цвете с металлическим карабином.",
+    "characteristics": [
+      {
+        "label": "Материал",
+        "value": "Силикон"
+      },
+      {
+        "label": "Карабин",
+        "value": "Металлический"
+      },
+      {
+        "label": "Универсальный",
+        "value": "Да"
+      },
+      {
+        "label": "Длина шнура",
+        "value": "25 см"
+      },
+      {
+        "label": "Гарантия",
+        "value": "6 месяцев"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Чехол-подвеска силиконовый с карабином, желтый",
+    "price": 490,
+    "rating": 3.9,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Яркий силиконовый чехол-подвеска в жёлтом цвете — новинка коллекции с удобным карабином.",
+    "characteristics": [
+      {
+        "label": "Материал",
+        "value": "Силикон"
+      },
+      {
+        "label": "Карабин",
+        "value": "Металлический"
+      },
+      {
+        "label": "Универсальный",
+        "value": "Да"
+      },
+      {
+        "label": "Длина шнура",
+        "value": "25 см"
+      },
+      {
+        "label": "Гарантия",
+        "value": "6 месяцев"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Беспроводная акустика, серый",
+    "price": 3299,
+    "rating": 4.4,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Портативная колонка в сером корпусе с 360° звуком и водозащитой для использования на природе.",
+    "characteristics": [
+      {
+        "label": "Мощность",
+        "value": "10 Вт"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.0"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 12 часов"
+      },
+      {
+        "label": "Защита",
+        "value": "IPX5"
+      },
+      {
+        "label": "Зарядка",
+        "value": "USB-C"
+      },
+      {
+        "label": "Тип звука",
+        "value": "Стерео"
+      },
+      {
+        "label": "Материал корпуса",
+        "value": "Пластик / ткань"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Беспроводная акустика, голубой",
+    "price": 3299,
+    "rating": 4.5,
+    "isBestseller": true,
+    "isNovelty": true,
+    "description": "Стильная портативная колонка в голубом цвете — хит новинок с мощным звуком и ярким дизайном.",
+    "characteristics": [
+      {
+        "label": "Мощность",
+        "value": "10 Вт"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.0"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 12 часов"
+      },
+      {
+        "label": "Защита",
+        "value": "IPX5"
+      },
+      {
+        "label": "Зарядка",
+        "value": "USB-C"
+      },
+      {
+        "label": "Тип звука",
+        "value": "Стерео"
+      },
+      {
+        "label": "Материал корпуса",
+        "value": "Пластик / ткань"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Беспроводная акустика, бежевый",
+    "price": 3299,
+    "rating": 4.3,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Элегантная портативная колонка в бежевом цвете для тех, кто ценит стиль и качество звука.",
+    "characteristics": [
+      {
+        "label": "Мощность",
+        "value": "10 Вт"
+      },
+      {
+        "label": "Версия Bluetooth",
+        "value": "5.0"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 12 часов"
+      },
+      {
+        "label": "Защита",
+        "value": "IPX5"
+      },
+      {
+        "label": "Зарядка",
+        "value": "USB-C"
+      },
+      {
+        "label": "Тип звука",
+        "value": "Стерео"
+      },
+      {
+        "label": "Материал корпуса",
+        "value": "Пластик / ткань"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Умная лампа",
+    "price": 1590,
+    "rating": 4.2,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Умная RGB лампа с управлением через приложение и голосовыми ассистентами для создания атмосферы.",
+    "characteristics": [
+      {
+        "label": "Мощность",
+        "value": "9 Вт"
+      },
+      {
+        "label": "Цоколь",
+        "value": "E27"
+      },
+      {
+        "label": "Цветовая температура",
+        "value": "2700–6500 К"
+      },
+      {
+        "label": "Управление",
+        "value": "Wi-Fi, приложение"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Alexa, Google Home"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Аппаратный ключ аутентификации NFC",
+    "price": 4990,
+    "rating": 4.6,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Физический ключ безопасности с поддержкой NFC и FIDO2 для двухфакторной аутентификации аккаунтов.",
+    "characteristics": [
+      {
+        "label": "Интерфейс",
+        "value": "USB-A, NFC"
+      },
+      {
+        "label": "Стандарт",
+        "value": "FIDO2, U2F"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Google, Microsoft, GitHub"
+      },
+      {
+        "label": "Защита",
+        "value": "IP68"
+      },
+      {
+        "label": "Гарантия",
+        "value": "2 года"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Аппаратный криптокошелек",
+    "price": 7990,
+    "rating": 4.5,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Защищённый аппаратный кошелёк для хранения криптовалют офлайн с поддержкой тысяч монет.",
+    "characteristics": [
+      {
+        "label": "Экран",
+        "value": "Есть, e-ink"
+      },
+      {
+        "label": "Подключение",
+        "value": "USB-C, Bluetooth"
+      },
+      {
+        "label": "Поддержка монет",
+        "value": "5500+"
+      },
+      {
+        "label": "Защита",
+        "value": "PIN + seed-фраза"
+      },
+      {
+        "label": "Совместимость",
+        "value": "Windows, macOS, Linux"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Очки виртуальной реальности, смартфоны до 6,5",
+    "price": 2990,
+    "rating": 3.8,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Очки виртуальной реальности для смартфонов с диагональю до 6,5 дюймов с регулируемыми линзами.",
+    "characteristics": [
+      {
+        "label": "Совместимость",
+        "value": "Смартфоны до 6.5\""
+      },
+      {
+        "label": "Угол обзора",
+        "value": "100°"
+      },
+      {
+        "label": "Линзы",
+        "value": "Регулируемые"
+      },
+      {
+        "label": "Материал",
+        "value": "ABS пластик"
+      },
+      {
+        "label": "Управление",
+        "value": "Кнопка + гироскоп"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Разрешение экрана",
+        "value": "2400×1080"
+      },
+      {
+        "label": "Процессор",
+        "value": "8-ядерный"
+      },
+      {
+        "label": "Фронтальная камера",
+        "value": "16 Мп"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Шлем виртуальной реальности 128GB",
+    "price": 49990,
+    "rating": 4.7,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Автономный VR-шлем с 128 ГБ памяти, высококачественным дисплеем и встроенным отслеживанием движений.",
+    "characteristics": [
+      {
+        "label": "Память",
+        "value": "128 ГБ"
+      },
+      {
+        "label": "Дисплей",
+        "value": "2х LCD, 2064×2208 на глаз"
+      },
+      {
+        "label": "Частота обновления",
+        "value": "90–120 Гц"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 3 часов"
+      },
+      {
+        "label": "Трекинг",
+        "value": "6DoF, без внешних датчиков"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Умный чемодан-скутер серый",
+    "price": 64990,
+    "rating": 4.3,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Инновационный чемодан-скутер в сером цвете: можно ехать верхом или использовать как обычный чемодан.",
+    "characteristics": [
+      {
+        "label": "Максимальная скорость",
+        "value": "13 км/ч"
+      },
+      {
+        "label": "Запас хода",
+        "value": "до 20 км"
+      },
+      {
+        "label": "Грузоподъёмность",
+        "value": "120 кг"
+      },
+      {
+        "label": "Объём",
+        "value": "35 л"
+      },
+      {
+        "label": "Зарядка",
+        "value": "3–4 часа"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Умный чемодан-скутер черный",
+    "price": 64990,
+    "rating": 0.0,
+    "isBestseller": true,
+    "isNovelty": true,
+    "description": "Топовая новинка — умный чемодан-скутер в чёрном цвете с электроприводом и умным замком.",
+    "characteristics": [
+      {
+        "label": "Максимальная скорость",
+        "value": "13 км/ч"
+      },
+      {
+        "label": "Запас хода",
+        "value": "до 20 км"
+      },
+      {
+        "label": "Грузоподъёмность",
+        "value": "120 кг"
+      },
+      {
+        "label": "Объём",
+        "value": "35 л"
+      },
+      {
+        "label": "Зарядка",
+        "value": "3–4 часа"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Дыхательный тренажер",
+    "price": 3990,
+    "rating": 4.1,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Умный дыхательный тренажер для снижения стресса, тренировки лёгких и улучшения сна.",
+    "characteristics": [
+      {
+        "label": "Режимы",
+        "value": "3 программы дыхания"
+      },
+      {
+        "label": "Время сессии",
+        "value": "5–20 минут"
+      },
+      {
+        "label": "Питание",
+        "value": "Аккумулятор, USB-C"
+      },
+      {
+        "label": "Вес",
+        "value": "180 г"
+      },
+      {
+        "label": "Приложение",
+        "value": "iOS, Android"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Видеокарта GeForce RTX 5070 12GB",
+    "price": 69990,
+    "rating": 4.7,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Мощная видеокарта NVIDIA GeForce RTX 5070 с 12 ГБ GDDR7 памяти для игр и профессиональных задач.",
+    "characteristics": [
+      {
+        "label": "Память",
+        "value": "12 ГБ GDDR7"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "192 бит"
+      },
+      {
+        "label": "Разъёмы",
+        "value": "3х DisplayPort, 1х HDMI"
+      },
+      {
+        "label": "TDP",
+        "value": "250 Вт"
+      },
+      {
+        "label": "Поддержка",
+        "value": "Ray Tracing, DLSS 4"
+      },
+      {
+        "label": "Частота GPU",
+        "value": "до 2.5 ГГц"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "PCIe 4.0/5.0"
+      },
+      {
+        "label": "Охлаждение",
+        "value": "Активное"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Компьютерное кресло Ergolux Pro, черное",
+    "price": 18990,
+    "rating": 4.5,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Эргономичное компьютерное кресло с поясничной поддержкой, регулируемыми подлокотниками и сетчатой спинкой.",
+    "characteristics": [
+      {
+        "label": "Материал спинки",
+        "value": "Дышащая сетка"
+      },
+      {
+        "label": "Нагрузка",
+        "value": "до 120 кг"
+      },
+      {
+        "label": "Регулировка высоты",
+        "value": "42–52 см"
+      },
+      {
+        "label": "Подлокотники",
+        "value": "4D, регулируемые"
+      },
+      {
+        "label": "Гарантия",
+        "value": "2 года"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Игровая приставка PlayStation 5 Slim",
+    "price": 54990,
+    "rating": 4.9,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Компактная версия PlayStation 5 с поддержкой 4K и 120fps, SSD-накопителем и контроллером DualSense.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "AMD Zen 2, 8 ядер"
+      },
+      {
+        "label": "Графика",
+        "value": "AMD RDNA 2, 10.3 ТФЛОПС"
+      },
+      {
+        "label": "Память",
+        "value": "825 ГБ SSD"
+      },
+      {
+        "label": "Разрешение",
+        "value": "до 4K, 120fps"
+      },
+      {
+        "label": "Оптический привод",
+        "value": "Опционально"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Смартфон Samsung Galaxy S24 256GB серый",
+    "price": 79990,
+    "rating": 4.8,
+    "isBestseller": true,
+    "isNovelty": true,
+    "description": "Флагманский смартфон Samsung Galaxy S24 с AI-функциями, мощной камерой и ярким AMOLED дисплеем.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "Snapdragon 8 Gen 3"
+      },
+      {
+        "label": "Память",
+        "value": "8 ГБ / 256 ГБ"
+      },
+      {
+        "label": "Экран",
+        "value": "6.2\", Dynamic AMOLED, 120 Гц"
+      },
+      {
+        "label": "Камера",
+        "value": "50 Мп + 12 Мп + 10 Мп"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "4000 мАч, 25 Вт"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Разрешение экрана",
+        "value": "2400×1080"
+      },
+      {
+        "label": "Фронтальная камера",
+        "value": "16 Мп"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Видеокарта GeForce RTX 5060 8GB",
+    "price": 33240,
+    "rating": 4.6,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Видеокарта среднего класса RTX 5060 с 8 ГБ GDDR7 для комфортной игры в 1080p и 1440p с трассировкой лучей.",
+    "characteristics": [
+      {
+        "label": "Память",
+        "value": "8 ГБ GDDR7"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "128 бит"
+      },
+      {
+        "label": "Разъёмы",
+        "value": "3х DisplayPort, 1х HDMI"
+      },
+      {
+        "label": "TDP",
+        "value": "150 Вт"
+      },
+      {
+        "label": "Поддержка",
+        "value": "Ray Tracing, DLSS 4"
+      },
+      {
+        "label": "Частота GPU",
+        "value": "до 2.5 ГГц"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "PCIe 4.0/5.0"
+      },
+      {
+        "label": "Охлаждение",
+        "value": "Активное"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ноутбук OSIO FocusLine 15.6\" серебристый",
+    "price": 64990,
+    "rating": 4.4,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Производительный ноутбук для работы и учёбы с ярким IPS-дисплеем 15.6\" в элегантном серебристом корпусе.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-13500H"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "16 ГБ DDR5"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD NVMe"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\", IPS, 1920×1080"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 10 часов"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная / дискретная"
+      },
+      {
+        "label": "Wi‑Fi",
+        "value": "Wi‑Fi 6"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Ноутбук OSIO FocusLine 15.6\" черный",
+    "price": 64990,
+    "rating": 4.3,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Стильный ноутбук в чёрном корпусе с мощным процессором и SSD-накопителем для продуктивной работы.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-13500H"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "16 ГБ DDR5"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD NVMe"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\", IPS, 1920×1080"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 10 часов"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная / дискретная"
+      },
+      {
+        "label": "Wi‑Fi",
+        "value": "Wi‑Fi 6"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Робот-пылесос Midea M7 Pro белый",
+    "price": 24990,
+    "rating": 4.6,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Умный робот-пылесос с лазерной навигацией, функцией мытья полов и управлением через приложение.",
+    "characteristics": [
+      {
+        "label": "Мощность всасывания",
+        "value": "4000 Па"
+      },
+      {
+        "label": "Навигация",
+        "value": "Лазерная LiDAR"
+      },
+      {
+        "label": "Уборка",
+        "value": "Пылесос + мытьё"
+      },
+      {
+        "label": "Время работы",
+        "value": "до 150 минут"
+      },
+      {
+        "label": "Управление",
+        "value": "Приложение, голос"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "5200 мАч"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Планшет Huawei MatePad 11.5\" 256GB",
+    "price": 34990,
+    "rating": 4.5,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Планшет Huawei MatePad с дисплеем 11.5\", 256 ГБ памяти и поддержкой стилуса для работы и творчества.",
+    "characteristics": [
+      {
+        "label": "Экран",
+        "value": "11.5\", IPS, 2200×1440"
+      },
+      {
+        "label": "Процессор",
+        "value": "Kirin 9000W"
+      },
+      {
+        "label": "Память",
+        "value": "8 ГБ / 256 ГБ"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "7700 мАч"
+      },
+      {
+        "label": "ОС",
+        "value": "HarmonyOS 4"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Ноутбук ASUS VivoBook 15 OLED серебристый",
+    "price": 59990,
+    "rating": 4.7,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Ноутбук с великолепным OLED-дисплеем, тонким корпусом и высокой производительностью для творческих задач.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-13700H"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "16 ГБ DDR5"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD NVMe"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\", OLED, 2880×1620, 120 Гц"
+      },
+      {
+        "label": "Вес",
+        "value": "1.7 кг"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная / дискретная"
+      },
+      {
+        "label": "Wi‑Fi",
+        "value": "Wi‑Fi 6"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Ноутбук ASUS VivoBook 15 OLED черный",
+    "price": 59990,
+    "rating": 4.6,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Тонкий и лёгкий ноутбук с OLED-дисплеем в строгом чёрном цвете для профессионалов и студентов.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-13700H"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "16 ГБ DDR5"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD NVMe"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\", OLED, 2880×1620, 120 Гц"
+      },
+      {
+        "label": "Вес",
+        "value": "1.7 кг"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная / дискретная"
+      },
+      {
+        "label": "Wi‑Fi",
+        "value": "Wi‑Fi 6"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Смартфон realme Note 60x 128GB черный",
+    "price": 12990,
+    "rating": 4.2,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Доступный смартфон realme с большим аккумулятором, ёмкой памятью и удобным экраном для повседневных задач.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "Unisoc T612"
+      },
+      {
+        "label": "Память",
+        "value": "4 ГБ / 128 ГБ"
+      },
+      {
+        "label": "Экран",
+        "value": "6.74\", IPS, 90 Гц"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "5000 мАч"
+      },
+      {
+        "label": "Камера",
+        "value": "50 Мп"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Разрешение экрана",
+        "value": "2400×1080"
+      },
+      {
+        "label": "Фронтальная камера",
+        "value": "16 Мп"
+      },
+      {
+        "label": "Быстрая зарядка",
+        "value": "Да"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Игровой системный блок RTX 5070 Ti",
+    "price": 149990,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Мощный игровой системный блок с топовой видеокартой RTX 5070 Ti для 4K-гейминга и стриминга.",
+    "characteristics": [
+      {
+        "label": "Процессор",
+        "value": "AMD Ryzen 7 7800X3D"
+      },
+      {
+        "label": "Видеокарта",
+        "value": "GeForce RTX 5070 Ti 16 ГБ"
+      },
+      {
+        "label": "ОЗУ",
+        "value": "32 ГБ DDR5"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ SSD NVMe"
+      },
+      {
+        "label": "Питание",
+        "value": "850 Вт, 80+ Gold"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Оперативная память Kingston FURY 32GB DDR5",
+    "price": 41290,
+    "rating": 4.8,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Высокоскоростная оперативная память Kingston FURY Beast DDR5 32 ГБ для максимальной производительности ПК.",
+    "characteristics": [
+      {
+        "label": "Объём",
+        "value": "32 ГБ (2×16 ГБ)"
+      },
+      {
+        "label": "Тип",
+        "value": "DDR5"
+      },
+      {
+        "label": "Частота",
+        "value": "5600 МГц"
+      },
+      {
+        "label": "Тайминги",
+        "value": "CL36"
+      },
+      {
+        "label": "Подсветка",
+        "value": "Нет"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Оперативная память Kingston FURY RGB 32GB",
+    "price": 39520,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Оперативная память Kingston FURY Beast с RGB-подсветкой для стильных игровых сборок.",
+    "characteristics": [
+      {
+        "label": "Объём",
+        "value": "32 ГБ (2×16 ГБ)"
+      },
+      {
+        "label": "Тип",
+        "value": "DDR5"
+      },
+      {
+        "label": "Частота",
+        "value": "5600 МГц"
+      },
+      {
+        "label": "Тайминги",
+        "value": "CL36"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Телевизор 4K UHD 55\" Smart TV черный",
+    "price": 84250,
+    "rating": 4.5,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Умный телевизор 55\" с разрешением 4K UHD, HDR и голосовым управлением для домашнего кинотеатра.",
+    "characteristics": [
+      {
+        "label": "Диагональ",
+        "value": "55\" (139 см)"
+      },
+      {
+        "label": "Разрешение",
+        "value": "3840×2160 (4K)"
+      },
+      {
+        "label": "HDR",
+        "value": "HDR10, HLG"
+      },
+      {
+        "label": "Smart TV",
+        "value": "Да, Android TV"
+      },
+      {
+        "label": "Частота",
+        "value": "60 Гц"
+      },
+      {
+        "label": "Подключение",
+        "value": "HDMI, Wi‑Fi"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Монитор MSI 32\" 4K OLED 144Hz черный",
+    "price": 46430,
+    "rating": 4.6,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Игровой монитор MSI с 32\" OLED-панелью 4K и частотой 144 Гц для плавного и чёткого изображения.",
+    "characteristics": [
+      {
+        "label": "Диагональ",
+        "value": "32\""
+      },
+      {
+        "label": "Разрешение",
+        "value": "3840×2160 (4K)"
+      },
+      {
+        "label": "Матрица",
+        "value": "OLED"
+      },
+      {
+        "label": "Частота",
+        "value": "144 Гц"
+      },
+      {
+        "label": "Время отклика",
+        "value": "0.03 мс (GTG)"
+      },
+      {
+        "label": "Подключение",
+        "value": "HDMI, DisplayPort"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Процессор AMD Ryzen 5 8400F",
+    "price": 12120,
+    "rating": 4.7,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Доступный 6-ядерный процессор AMD Ryzen 5 8400F для сборки производительного ПК начального уровня.",
+    "characteristics": [
+      {
+        "label": "Ядра / Потоки",
+        "value": "6 / 12"
+      },
+      {
+        "label": "Базовая частота",
+        "value": "4.2 ГГц"
+      },
+      {
+        "label": "Турбо частота",
+        "value": "до 4.7 ГГц"
+      },
+      {
+        "label": "Сокет",
+        "value": "AM5"
+      },
+      {
+        "label": "TDP",
+        "value": "65 Вт"
+      },
+      {
+        "label": "Техпроцесс",
+        "value": "5 нм"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Монитор ASUS ROG Swift 27\" 2K 165Hz черный",
+    "price": 44460,
+    "rating": 4.8,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Игровой монитор ASUS ROG Swift с 27\" QHD-дисплеем и частотой 165 Гц для соревновательного гейминга.",
+    "characteristics": [
+      {
+        "label": "Диагональ",
+        "value": "27\""
+      },
+      {
+        "label": "Разрешение",
+        "value": "2560×1440 (2K)"
+      },
+      {
+        "label": "Матрица",
+        "value": "IPS"
+      },
+      {
+        "label": "Частота",
+        "value": "165 Гц"
+      },
+      {
+        "label": "Время отклика",
+        "value": "1 мс (GTG)"
+      },
+      {
+        "label": "Подключение",
+        "value": "HDMI, DisplayPort"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Телевизор Samsung Crystal UHD 50\" черный",
+    "price": 39410,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Телевизор Samsung с технологией Crystal UHD для насыщенных цветов и чёткого 4K изображения.",
+    "characteristics": [
+      {
+        "label": "Диагональ",
+        "value": "50\" (127 см)"
+      },
+      {
+        "label": "Разрешение",
+        "value": "3840×2160 (4K)"
+      },
+      {
+        "label": "Технология",
+        "value": "Crystal UHD"
+      },
+      {
+        "label": "Smart TV",
+        "value": "Tizen OS"
+      },
+      {
+        "label": "HDR",
+        "value": "HDR10+"
+      },
+      {
+        "label": "Подключение",
+        "value": "HDMI, Wi‑Fi"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Процессор AMD Ryzen 7 7800X3D BOX",
+    "price": 24230,
+    "rating": 4.9,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Лучший игровой процессор AMD Ryzen 7 7800X3D с технологией 3D V-Cache для максимального FPS в играх.",
+    "characteristics": [
+      {
+        "label": "Ядра / Потоки",
+        "value": "8 / 16"
+      },
+      {
+        "label": "Базовая частота",
+        "value": "4.5 ГГц"
+      },
+      {
+        "label": "Турбо частота",
+        "value": "до 5.0 ГГц"
+      },
+      {
+        "label": "Кеш L3",
+        "value": "96 МБ (3D V-Cache)"
+      },
+      {
+        "label": "Сокет",
+        "value": "AM5"
+      },
+      {
+        "label": "Техпроцесс",
+        "value": "5 нм"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Процессор Intel Core i5-14400F OEM",
+    "price": 14350,
+    "rating": 4.6,
+    "isBestseller": false,
+    "isNovelty": false,
+    "description": "Производительный процессор Intel Core i5-14400F для игровых и рабочих ПК начального и среднего уровня.",
+    "characteristics": [
+      {
+        "label": "Ядра / Потоки",
+        "value": "10 / 16"
+      },
+      {
+        "label": "Базовая частота",
+        "value": "2.5 ГГц"
+      },
+      {
+        "label": "Турбо частота",
+        "value": "до 4.7 ГГц"
+      },
+      {
+        "label": "Кеш L3",
+        "value": "20 МБ"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700"
+      },
+      {
+        "label": "Техпроцесс",
+        "value": "5 нм"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "SSD Samsung 990 Pro 1TB M.2 NVMe",
+    "price": 16460,
+    "rating": 4.8,
+    "isBestseller": true,
+    "isNovelty": false,
+    "description": "Флагманский NVMe SSD Samsung 990 Pro с рекордной скоростью чтения для профессионалов и геймеров.",
+    "characteristics": [
+      {
+        "label": "Объём",
+        "value": "1 ТБ"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "M.2 NVMe PCIe 4.0"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 7450 МБ/с"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 6900 МБ/с"
+      },
+      {
+        "label": "Гарантия",
+        "value": "5 лет"
+      },
+      {
+        "label": "Ресурс записи",
+        "value": "до 600 TBW"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "SSD ADATA Legend 960 Max 1TB M.2 NVMe",
+    "price": 12340,
+    "rating": 0.0,
+    "isBestseller": false,
+    "isNovelty": true,
+    "description": "Высокоскоростной SSD ADATA Legend 960 Max с интерфейсом PCIe 4.0 по выгодной цене.",
+    "characteristics": [
+      {
+        "label": "Объём",
+        "value": "1 ТБ"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "M.2 NVMe PCIe 4.0"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 7400 МБ/с"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 6800 МБ/с"
+      },
+      {
+        "label": "Гарантия",
+        "value": "5 лет"
+      },
+      {
+        "label": "Ресурс записи",
+        "value": "до 600 TBW"
+      }
+    ]
+  }
+]

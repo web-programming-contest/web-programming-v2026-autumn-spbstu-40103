@@ -1,0 +1,204 @@
+[
+    {
+        "username": "Andrey",
+        "password": "123456",
+        "cart": [],
+        "orders": [
+            {
+                "id": "032158",
+                "date": "04.05.2026 00:58",
+                "contacts": {
+                    "tel": "123",
+                    "email": "a@a.a",
+                    "address": "3"
+                },
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Внешний аккумулятор 10000mAh, белый",
+                        "quantity": 1,
+                        "price": 2499
+                    },
+                    {
+                        "id": 3,
+                        "name": "Bluetooth гарнитура, черный",
+                        "quantity": 3,
+                        "price": 1899
+                    }
+                ],
+                "delivery": "delivery",
+                "payment": "cash",
+                "packaging": true,
+                "total": 8196
+            },
+            {
+                "id": "032250",
+                "date": "04.05.2026 01:50",
+                "contacts": {
+                    "tel": "123",
+                    "email": "a@a.a",
+                    "address": null
+                },
+                "items": [
+                    {
+                        "id": 2,
+                        "name": "Внешний аккумулятор 10000mAh, черный",
+                        "quantity": 6,
+                        "price": 2399
+                    },
+                    {
+                        "id": 3,
+                        "name": "Bluetooth гарнитура, черный",
+                        "quantity": 3,
+                        "price": 1899
+                    },
+                    {
+                        "id": 5,
+                        "name": "Беспроводная акустика",
+                        "quantity": 1,
+                        "price": 3499
+                    }
+                ],
+                "delivery": "pickup",
+                "payment": "card",
+                "packaging": true,
+                "total": 23590
+            },
+            {
+                "id": "032257",
+                "date": "04.05.2026 01:57",
+                "contacts": {
+                    "tel": "123",
+                    "email": "a@a.a",
+                    "address": null
+                },
+                "items": [
+                    {
+                        "id": 37,
+                        "name": "Видеокарта GeForce RTX 5060 8GB",
+                        "quantity": 6,
+                        "price": 33240
+                    }
+                ],
+                "delivery": "pickup",
+                "payment": "cash",
+                "packaging": true,
+                "total": 199440
+            },
+            {
+                "id": "032301",
+                "date": "04.05.2026 02:01",
+                "contacts": {
+                    "tel": "123",
+                    "email": "a@a.a",
+                    "address": null
+                },
+                "items": [
+                    {
+                        "id": 7,
+                        "name": "Смартфон 256 ГБ черный",
+                        "quantity": 1,
+                        "price": 34990
+                    },
+                    {
+                        "id": 8,
+                        "name": "Смартфон 256 ГБ белый",
+                        "quantity": 4,
+                        "price": 34990
+                    }
+                ],
+                "delivery": "pickup",
+                "payment": "cash",
+                "packaging": true,
+                "total": 174950
+            },
+            {
+                "id": "041457",
+                "date": "04.05.2026 17:57",
+                "contacts": {
+                    "tel": "123",
+                    "email": "a@a.a",
+                    "address": null
+                },
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Внешний аккумулятор 10000mAh, белый",
+                        "quantity": 1,
+                        "price": 2499
+                    },
+                    {
+                        "id": 2,
+                        "name": "Внешний аккумулятор 10000mAh, черный",
+                        "quantity": 1,
+                        "price": 2399
+                    },
+                    {
+                        "id": 37,
+                        "name": "Видеокарта GeForce RTX 5060 8GB",
+                        "quantity": 6,
+                        "price": 33240
+                    }
+                ],
+                "delivery": "pickup",
+                "payment": "cash",
+                "packaging": true,
+                "total": 204338
+            },
+            {
+                "id": "281515",
+                "date": "28.10.2026 18:15",
+                "contacts": {
+                    "tel": "sakujhsaik",
+                    "email": "sdujhsi",
+                    "address": null
+                },
+                "items": [
+                    {
+                        "id": 2,
+                        "name": "Внешний аккумулятор 10000mAh, черный",
+                        "quantity": 1,
+                        "price": 2399
+                    }
+                ],
+                "delivery": "pickup",
+                "payment": "cash",
+                "packaging": false,
+                "total": 2399
+            },
+            {
+                "id": "281540",
+                "date": "28.10.2026 18:40",
+                "contacts": {
+                    "tel": "sjbsxjsbjx",
+                    "email": "jdh994lr@gmail.com",
+                    "address": null
+                },
+                "items": [
+                    {
+                        "id": 3,
+                        "name": "Bluetooth гарнитура, черный",
+                        "quantity": 1,
+                        "price": 1899
+                    }
+                ],
+                "delivery": "pickup",
+                "payment": "cash",
+                "packaging": false,
+                "total": 1899
+            }
+        ]
+    },
+    {
+        "username": "admin",
+        "password": "qfdghasFD",
+        "cart": [],
+        "orders": []
+    },
+    {
+        "username": "andrew",
+        "password": "adfgjrths",
+        "cart": [],
+        "orders": []
+    }
+]
