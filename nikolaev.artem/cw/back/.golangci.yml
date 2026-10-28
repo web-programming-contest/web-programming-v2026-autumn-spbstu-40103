@@ -1,0 +1,9 @@
+version: "2"
+linters:
+  default: none
+  enable:
+    - nlreturn
+    - wsl_v5
+  settings:
+    nlreturn:
+      block-size: 2

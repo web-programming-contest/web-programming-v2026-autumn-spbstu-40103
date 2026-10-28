@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-cyrillic-400.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-cyrillic-500.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-latin-400.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+20BD, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('../assets/fonts/rubik-latin-500.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+20BD, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --blue: #115efb;
+  --navy: #0c368a;
+  --blue-light: #84adff;
+  --blue-grey: #aebddb;
+  --pink: #ff60c3;
+  --pink-hover: #cd3c96;
+  --pink-light: #f2a2d4;
+  --green: #00e398;
+  --yellow: #ffec41;
+
+  --gray-1: #e4e7eb;
+  --gray-2: #eceff3;
+  --bg-muted: #f3f6fa;
+
+  --text-dark: #000;
+  --text-normal: #484848;
+  --text-light: #7b7b7b;
+  --text-ultralight: #b9b9b9;
+
+  --radius-s: 8px;
+  --content-width: 1240px;
+  --header-height: 80px;
+
+  font-family: 'Rubik', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-dark);
+  background: #fff;
+  min-width: 1400px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: var(--content-width);
+  margin: 0 auto;
+  position: relative;
+}
+
+.page {
+  flex: 1;
+}
+
+.page--muted {
+  background: var(--bg-muted);
+}
+
+:focus-visible {
+  outline: 2px solid var(--blue-light);
+  outline-offset: 2px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+.page > * {
+  flex: 1;
+}

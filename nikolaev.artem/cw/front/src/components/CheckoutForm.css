@@ -1,0 +1,24 @@
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 40px;
+  border-radius: var(--radius-s);
+  background: #fff;
+}
+.checkout-form__row {
+  display: grid;
+  grid-template-columns: 286px 286px;
+  column-gap: 32px;
+}
+.checkout-form__radios {
+  display: flex;
+  gap: 42px;
+}
+.checkout-form__address {
+  width: 604px;
+}
+.checkout-form__payment {
+  width: 286px;
+}
