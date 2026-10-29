@@ -1,0 +1,80 @@
+.banner {
+  display: block;
+  width: 1240px;
+  height: 560px;
+  object-fit: contain;
+}
+
+.carousel-section {
+  display: flex;
+  gap: 32px;
+  margin-top: 80px;
+  align-items: center;
+  min-height: 447px;
+}
+
+.carousel-intro {
+  width: 286px;
+  flex-shrink: 0;
+  padding-right: 26px;
+}
+
+.carousel-intro h2 {
+  margin: 20px 0 16px;
+  white-space: nowrap;
+}
+
+.carousel-intro p {
+  color: #7b7b7b;
+}
+
+.hit-icon {
+  width: 35px;
+  height: 41px;
+}
+
+.new-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.carousel-slider {
+  width: 922px;
+  min-width: 0;
+  position: relative;
+}
+
+.carousel-slider .swiper {
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: #fff9;
+  border-radius: 20px;
+  width: 30px;
+  height: 40px;
+  top: 140px;
+  padding: 10px 9px;
+}
+
+.carousel-button svg {
+  display: block;
+  width: 11px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.carousel-button-prev {
+  left: -40px;
+}
+
+.carousel-button-next {
+  right: -40px;
+}

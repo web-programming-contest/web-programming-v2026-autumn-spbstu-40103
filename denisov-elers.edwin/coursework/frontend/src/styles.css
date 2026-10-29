@@ -1,0 +1,10 @@
+@import './styles/base.css';
+@import './styles/layout.css';
+@import './styles/controls.css';
+@import './styles/home-carousel.css';
+@import './styles/product.css';
+@import './styles/home-sections.css';
+@import './styles/catalog.css';
+@import './styles/login.css';
+@import './styles/cart.css';
+@import './styles/modal.css';

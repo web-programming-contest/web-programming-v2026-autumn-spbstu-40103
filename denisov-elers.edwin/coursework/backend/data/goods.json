@@ -1,0 +1,591 @@
+[
+  {
+    "id": "p1",
+    "name": "Смартфон 256 ГБ розовый",
+    "price": 102099,
+    "rating": 5,
+    "popularity": 97,
+    "createdAt": "2024-04-28",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/iphone.png",
+    "description": "Смартфон 256 ГБ розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": true
+  },
+  {
+    "id": "p2",
+    "name": "Умный робот-друг Red solution Reddy Air",
+    "price": 27990,
+    "rating": 4.9,
+    "popularity": 91,
+    "createdAt": "2024-04-27",
+    "category": "Умные роботы",
+    "color": "Белый",
+    "image": "/assets/catalog/robot.png",
+    "description": "Умный робот-друг Red solution Reddy Air. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Умные роботы",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p3",
+    "name": "Часы с GPS трекером, розовый",
+    "price": 2000,
+    "rating": 4.8,
+    "popularity": 85,
+    "createdAt": "2024-04-26",
+    "category": "Умные часы",
+    "color": "Розовый",
+    "image": "/assets/catalog/gps.png",
+    "description": "Часы с GPS трекером, розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p4",
+    "name": "Смарт-часы, черные",
+    "price": 15199,
+    "rating": 4,
+    "popularity": 79,
+    "createdAt": "2024-04-25",
+    "category": "Умные часы",
+    "color": "Черный",
+    "image": "/assets/catalog/watch2.png",
+    "description": "Смарт-часы, черные. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Черный",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p5",
+    "name": "Смартфон 256 ГБ розовый",
+    "price": 43999,
+    "rating": 4.2,
+    "popularity": 73,
+    "createdAt": "2024-04-24",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/android.png",
+    "description": "Смартфон 256 ГБ розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": true,
+    "isHit": false
+  },
+  {
+    "id": "p6",
+    "name": "Беспроводная акустика, голубой",
+    "price": 4990,
+    "rating": 4.8,
+    "popularity": 67,
+    "createdAt": "2024-04-23",
+    "category": "Портативная акустика",
+    "color": "Голубой",
+    "image": "/assets/catalog/acoustic.png",
+    "description": "Беспроводная акустика, голубой. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Голубой",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p7",
+    "name": "Аппаратный ключ аутентификации",
+    "price": 10590,
+    "rating": 5,
+    "popularity": 61,
+    "createdAt": "2024-04-22",
+    "category": "Ключи аутентификации",
+    "color": "Синий",
+    "image": "/assets/catalog/key.png",
+    "description": "Аппаратный ключ аутентификации. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Ключи аутентификации",
+      "Цвет": "Синий",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p8",
+    "name": "Шлем виртуальной реальности 128 ГБ",
+    "price": 49990,
+    "rating": 4.8,
+    "popularity": 55,
+    "createdAt": "2024-04-21",
+    "category": "Очки виртуальной реальности",
+    "color": "Белый",
+    "image": "/assets/catalog/vr.png",
+    "description": "Шлем виртуальной реальности 128 ГБ. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Очки виртуальной реальности",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p9",
+    "name": "Фитнес-браслет, розовый",
+    "price": 2299,
+    "rating": 4.5,
+    "popularity": 49,
+    "createdAt": "2024-04-20",
+    "category": "Фитнес браслеты",
+    "color": "Розовый",
+    "image": "/assets/catalog/watch.png",
+    "description": "Фитнес-браслет, розовый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Фитнес браслеты",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p10",
+    "name": "Беспроводная акустика, бежевый",
+    "price": 4990,
+    "rating": 5,
+    "popularity": 43,
+    "createdAt": "2024-04-19",
+    "category": "Портативная акустика",
+    "color": "Бежевый",
+    "image": "/assets/catalog/acoustic2.png",
+    "description": "Беспроводная акустика, бежевый. Товар из демонстрационного каталога Gadget Hub.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Бежевый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": true
+  },
+  {
+    "id": "p11",
+    "name": "Смартфон Samsung Galaxy Z Flip5 8/256GB фиолетовый",
+    "price": 94990,
+    "rating": 5,
+    "popularity": 37,
+    "createdAt": "2024-04-18",
+    "category": "Смартфоны",
+    "color": "Фиолетовый",
+    "image": "/assets/catalog/samsung.png",
+    "description": "Смартфон фиолетовый — девайс со складным корпусом и двумя экранами, что расширяет его возможности.",
+    "characteristics": {
+      "Гарантия": "1 год",
+      "Экран": "3.4″ / 720×748 пикс.",
+      "Процессор": "Qualcomm Snapdragon 8 Gen 2, 1×3.36 ГГц + 2×2.8 ГГц + 2×2.8 ГГц + 3×2.0 ГГц"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p12",
+    "name": "Смартфон Gadget Pro 256 ГБ, графитовый",
+    "price": 78990,
+    "rating": 4.9,
+    "popularity": 35,
+    "createdAt": "2024-04-17",
+    "category": "Смартфоны",
+    "color": "Черный",
+    "image": "/assets/catalog/iphone.png",
+    "description": "Смартфон Gadget Pro с ярким экраном, производительным процессором и накопителем на 256 ГБ.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Черный",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p13",
+    "name": "Складной смартфон Galaxy Flex 512 ГБ",
+    "price": 119990,
+    "rating": 4.8,
+    "popularity": 33,
+    "createdAt": "2024-04-16",
+    "category": "Смартфоны",
+    "color": "Фиолетовый",
+    "image": "/assets/catalog/samsung.png",
+    "description": "Складной смартфон Galaxy Flex с двумя экранами и накопителем на 512 ГБ.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Фиолетовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p14",
+    "name": "Смартфон Nova Lite 128 ГБ, розовый",
+    "price": 36990,
+    "rating": 4.6,
+    "popularity": 31,
+    "createdAt": "2024-04-15",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/android.png",
+    "description": "Легкий смартфон Nova Lite с камерой высокого разрешения и памятью 128 ГБ.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p15",
+    "name": "Детские часы с GPS Kid Track Mini",
+    "price": 3490,
+    "rating": 4.7,
+    "popularity": 29,
+    "createdAt": "2024-04-14",
+    "category": "Умные часы",
+    "color": "Розовый",
+    "image": "/assets/catalog/gps.png",
+    "description": "Детские умные часы с GPS, кнопкой экстренного вызова и голосовой связью.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p16",
+    "name": "Фитнес-браслет Active Pulse 2",
+    "price": 3990,
+    "rating": 4.5,
+    "popularity": 27,
+    "createdAt": "2024-04-13",
+    "category": "Фитнес браслеты",
+    "color": "Розовый",
+    "image": "/assets/catalog/watch.png",
+    "description": "Фитнес-браслет Active Pulse 2 считает шаги, пульс и продолжительность сна.",
+    "characteristics": {
+      "Тип товара": "Фитнес браслеты",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p17",
+    "name": "Смарт-часы Chronos X, черные",
+    "price": 18990,
+    "rating": 4.7,
+    "popularity": 25,
+    "createdAt": "2024-04-12",
+    "category": "Умные часы",
+    "color": "Черный",
+    "image": "/assets/catalog/watch2.png",
+    "description": "Смарт-часы Chronos X с AMOLED-экраном и автономностью до семи дней.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Черный",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p18",
+    "name": "Портативная колонка Wave Mini",
+    "price": 5990,
+    "rating": 4.6,
+    "popularity": 23,
+    "createdAt": "2024-04-11",
+    "category": "Портативная акустика",
+    "color": "Голубой",
+    "image": "/assets/catalog/acoustic.png",
+    "description": "Компактная беспроводная колонка Wave Mini с защитой от брызг.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Голубой",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p19",
+    "name": "Беспроводная колонка Sound Box Pro",
+    "price": 7990,
+    "rating": 4.8,
+    "popularity": 21,
+    "createdAt": "2024-04-10",
+    "category": "Портативная акустика",
+    "color": "Бежевый",
+    "image": "/assets/catalog/acoustic2.png",
+    "description": "Беспроводная колонка Sound Box Pro с насыщенным стереозвуком.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Бежевый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p20",
+    "name": "Домашний робот-помощник Reddy Mini",
+    "price": 23990,
+    "rating": 4.4,
+    "popularity": 19,
+    "createdAt": "2024-04-09",
+    "category": "Умные роботы",
+    "color": "Белый",
+    "image": "/assets/catalog/robot.png",
+    "description": "Компактный домашний робот Reddy Mini для развлечений и голосовых напоминаний.",
+    "characteristics": {
+      "Тип товара": "Умные роботы",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p21",
+    "name": "VR-шлем Vision Space 256 ГБ",
+    "price": 62990,
+    "rating": 4.9,
+    "popularity": 17,
+    "createdAt": "2024-04-08",
+    "category": "Очки виртуальной реальности",
+    "color": "Белый",
+    "image": "/assets/catalog/vr.png",
+    "description": "VR-шлем Vision Space с накопителем 256 ГБ и контроллерами движения.",
+    "characteristics": {
+      "Тип товара": "Очки виртуальной реальности",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p22",
+    "name": "Ключ безопасности Secure Key Pro",
+    "price": 12990,
+    "rating": 5,
+    "popularity": 15,
+    "createdAt": "2024-04-07",
+    "category": "Ключи аутентификации",
+    "color": "Синий",
+    "image": "/assets/catalog/key.png",
+    "description": "Аппаратный ключ Secure Key Pro для надежной двухфакторной аутентификации.",
+    "characteristics": {
+      "Тип товара": "Ключи аутентификации",
+      "Цвет": "Синий",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p23",
+    "name": "Смартфон Gadget Air 128 ГБ, розовый",
+    "price": 67990,
+    "rating": 4.7,
+    "popularity": 14,
+    "createdAt": "2024-04-06",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/iphone.png",
+    "description": "Тонкий смартфон Gadget Air с производительной камерой и памятью 128 ГБ.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p24",
+    "name": "Складной смартфон Galaxy Pocket 256 ГБ",
+    "price": 84990,
+    "rating": 4.6,
+    "popularity": 13,
+    "createdAt": "2024-04-05",
+    "category": "Смартфоны",
+    "color": "Фиолетовый",
+    "image": "/assets/catalog/samsung.png",
+    "description": "Компактный складной смартфон Galaxy Pocket с внешним информационным экраном.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Фиолетовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p25",
+    "name": "Смартфон Nova Max 256 ГБ, розовый",
+    "price": 52990,
+    "rating": 4.8,
+    "popularity": 12,
+    "createdAt": "2024-04-04",
+    "category": "Смартфоны",
+    "color": "Розовый",
+    "image": "/assets/catalog/android.png",
+    "description": "Смартфон Nova Max с большим экраном, емким аккумулятором и памятью 256 ГБ.",
+    "characteristics": {
+      "Тип товара": "Смартфоны",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p26",
+    "name": "Часы с GPS Kid Track Plus",
+    "price": 4990,
+    "rating": 4.5,
+    "popularity": 11,
+    "createdAt": "2024-04-03",
+    "category": "Умные часы",
+    "color": "Розовый",
+    "image": "/assets/catalog/gps.png",
+    "description": "Детские часы Kid Track Plus с GPS-навигацией и защищенным корпусом.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p27",
+    "name": "Фитнес-браслет Active Pulse Lite",
+    "price": 2790,
+    "rating": 4.3,
+    "popularity": 10,
+    "createdAt": "2024-04-02",
+    "category": "Фитнес браслеты",
+    "color": "Розовый",
+    "image": "/assets/catalog/watch.png",
+    "description": "Легкий фитнес-браслет Active Pulse Lite для ежедневного контроля активности.",
+    "characteristics": {
+      "Тип товара": "Фитнес браслеты",
+      "Цвет": "Розовый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p28",
+    "name": "Смарт-часы Chronos Sport, черные",
+    "price": 12990,
+    "rating": 4.6,
+    "popularity": 9,
+    "createdAt": "2024-04-01",
+    "category": "Умные часы",
+    "color": "Черный",
+    "image": "/assets/catalog/watch2.png",
+    "description": "Спортивные смарт-часы Chronos Sport с GPS и набором тренировочных режимов.",
+    "characteristics": {
+      "Тип товара": "Умные часы",
+      "Цвет": "Черный",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p29",
+    "name": "Портативная колонка Wave Go",
+    "price": 4490,
+    "rating": 4.4,
+    "popularity": 7,
+    "createdAt": "2024-03-31",
+    "category": "Портативная акустика",
+    "color": "Голубой",
+    "image": "/assets/catalog/acoustic.png",
+    "description": "Легкая портативная колонка Wave Go с ремешком и аккумулятором на 12 часов.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Голубой",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p30",
+    "name": "Беспроводная колонка Sound Box Mini",
+    "price": 5490,
+    "rating": 4.7,
+    "popularity": 5,
+    "createdAt": "2024-03-30",
+    "category": "Портативная акустика",
+    "color": "Бежевый",
+    "image": "/assets/catalog/acoustic2.png",
+    "description": "Компактная колонка Sound Box Mini с чистым звучанием и быстрым подключением.",
+    "characteristics": {
+      "Тип товара": "Портативная акустика",
+      "Цвет": "Бежевый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  },
+  {
+    "id": "p31",
+    "name": "Интерактивный робот Reddy Play",
+    "price": 31990,
+    "rating": 4.8,
+    "popularity": 3,
+    "createdAt": "2024-03-29",
+    "category": "Умные роботы",
+    "color": "Белый",
+    "image": "/assets/catalog/robot.png",
+    "description": "Интерактивный робот Reddy Play с голосовым управлением и обучающими играми.",
+    "characteristics": {
+      "Тип товара": "Умные роботы",
+      "Цвет": "Белый",
+      "Гарантия": "1 год"
+    },
+    "isNew": false,
+    "isHit": false
+  }
+]
