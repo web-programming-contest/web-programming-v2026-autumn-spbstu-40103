@@ -30,13 +30,15 @@ h1 {
   background: #fff;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.08);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .column:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgb(0 0 0 / 12%);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.12);
 }
 
 .column h2 {
