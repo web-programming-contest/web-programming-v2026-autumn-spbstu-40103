@@ -1,0 +1,164 @@
+[
+  {
+    "id": 567800,
+    "username": "student",
+    "createdAt": "2024-04-28T12:00:00.000Z",
+    "items": [
+      {
+        "productId": 32,
+        "name": "Дыхательный тренажер",
+        "price": 6990,
+        "quantity": 1,
+        "lineTotal": 6990
+      }
+    ],
+    "itemsCount": 1,
+    "total": 6990,
+    "customer": {
+      "phone": "+7 900 000-00-00",
+      "email": "",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "card",
+      "packaging": false
+    }
+  },
+  {
+    "id": 436789,
+    "username": "student",
+    "createdAt": "2024-03-01T12:00:00.000Z",
+    "items": [
+      {
+        "productId": 5,
+        "name": "Беспроводная акустика",
+        "price": 4990,
+        "quantity": 2,
+        "lineTotal": 9980
+      },
+      {
+        "productId": 29,
+        "name": "Шлем виртуальной реальности 128GB",
+        "price": 49990,
+        "quantity": 1,
+        "lineTotal": 49990
+      }
+    ],
+    "itemsCount": 3,
+    "total": 59970,
+    "customer": {
+      "phone": "+7 900 000-00-00",
+      "email": "student@example.com",
+      "deliveryType": "delivery",
+      "address": "Санкт-Петербург",
+      "payment": "card",
+      "packaging": true
+    }
+  },
+  {
+    "id": 405674,
+    "username": "student",
+    "createdAt": "2024-02-12T12:00:00.000Z",
+    "items": [
+      {
+        "productId": 18,
+        "name": "Чехол-подвеска силиконовый с карабином, красный",
+        "price": 990,
+        "quantity": 1,
+        "lineTotal": 990
+      },
+      {
+        "productId": 19,
+        "name": "Чехол-подвеска силиконовый с карабином, белый",
+        "price": 990,
+        "quantity": 1,
+        "lineTotal": 990
+      }
+    ],
+    "itemsCount": 2,
+    "total": 1980,
+    "customer": {
+      "phone": "+7 900 000-00-00",
+      "email": "",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "cash",
+      "packaging": false
+    }
+  },
+  {
+    "id": 567801,
+    "username": "student",
+    "createdAt": "2026-10-13T14:56:52.399Z",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Внешний аккумулятор 10000mAh, черный",
+        "price": 3490,
+        "quantity": 1,
+        "lineTotal": 3490
+      },
+      {
+        "productId": 18,
+        "name": "Чехол-подвеска силиконовый с карабином, красный",
+        "price": 990,
+        "quantity": 1,
+        "lineTotal": 990
+      },
+      {
+        "productId": 29,
+        "name": "Шлем виртуальной реальности 128GB",
+        "price": 49990,
+        "quantity": 1,
+        "lineTotal": 49990
+      }
+    ],
+    "itemsCount": 3,
+    "total": 54470,
+    "customer": {
+      "phone": "+79135443156",
+      "email": "lexavostr9996@gmail.com",
+      "deliveryType": "delivery",
+      "address": "Спб",
+      "payment": "card",
+      "packaging": true
+    }
+  },
+  {
+    "id": 567802,
+    "username": "student",
+    "createdAt": "2026-10-13T15:32:51.509Z",
+    "items": [
+      {
+        "productId": 25,
+        "name": "Умная лампа",
+        "price": 1990,
+        "quantity": 1,
+        "lineTotal": 1990
+      },
+      {
+        "productId": 28,
+        "name": "Очки виртуальной реальности, смартфоны до 6,5\"",
+        "price": 4990,
+        "quantity": 1,
+        "lineTotal": 4990
+      },
+      {
+        "productId": 31,
+        "name": "Умный чемодан-скутер черный",
+        "price": 89990,
+        "quantity": 12,
+        "lineTotal": 1079880
+      }
+    ],
+    "itemsCount": 14,
+    "total": 1086860,
+    "customer": {
+      "phone": "9",
+      "email": "lexavostdsdr96@gmail.com",
+      "deliveryType": "pickup",
+      "address": "",
+      "payment": "cash",
+      "packaging": true
+    }
+  }
+]

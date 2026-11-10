@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вход — Gadget Hub</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div data-site-header></div>
+    <main class="login-main">
+      <form class="login-card" data-login-form novalidate>
+        <h1>Добро пожаловать!</h1>
+        <div class="form-field">
+          <label for="username">Логин</label>
+          <input id="username" name="username" autocomplete="username" />
+          <span class="field-error"></span>
+        </div>
+        <div class="form-field">
+          <label for="password">Пароль</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" />
+          <span class="field-error"></span>
+        </div>
+        <button class="btn btn-blue" type="submit">Войти</button>
+        <p class="demo-hint">Для демонстрации: <strong>student / 12345</strong></p>
+      </form>
+    </main>
+    <div data-site-footer></div>
+
+    <dialog class="modal small-modal" data-error-modal>
+      <div class="modal-card">
+        <button class="modal-close" type="button" data-modal-close>×</button>
+        <h2>Ошибка входа</h2>
+        <p data-error-message></p>
+        <button class="btn btn-blue" type="button" data-modal-close onclick="this.closest('dialog').close()">Ок</button>
+      </div>
+    </dialog>
+    <script type="module" src="./js/login.js"></script>
+  </body>
+</html>

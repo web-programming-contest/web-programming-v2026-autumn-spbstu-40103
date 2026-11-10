@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог — Gadget Hub</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div data-site-header></div>
+    <main class="container catalog-main">
+      <h1>Каталог товаров</h1>
+      <div class="sort-chips" aria-label="Сортировка">
+        <button class="chip active" type="button" data-sort="new">Новые</button>
+        <button class="chip" type="button" data-sort="popular">Популярные</button>
+        <button class="chip" type="button" data-sort="cheap">Подешевле</button>
+        <button class="chip" type="button" data-sort="expensive">Подороже</button>
+      </div>
+
+      <div class="catalog-layout">
+        <div>
+          <div class="product-grid" data-product-grid></div>
+          <p class="empty-message" data-empty hidden>Товары по вашему запросу не найдены.</p>
+          <nav class="pagination" data-pagination aria-label="Пагинация"></nav>
+        </div>
+
+        <aside class="filters-card">
+          <form data-filter-form>
+            <fieldset>
+              <legend>Цена, ₽</legend>
+              <div class="price-fields">
+                <input name="min" inputmode="numeric" placeholder="От" />
+                <input name="max" inputmode="numeric" placeholder="До" />
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Тип товара</legend>
+              <div class="filter-list" data-type-filters></div>
+            </fieldset>
+            <fieldset>
+              <legend>Цвет</legend>
+              <div class="filter-list" data-color-filters></div>
+            </fieldset>
+            <div class="filter-actions">
+              <button class="btn btn-blue" type="submit">Показать</button>
+              <button class="btn btn-link" type="button" data-reset-filters>Сбросить</button>
+            </div>
+          </form>
+        </aside>
+      </div>
+    </main>
+    <div data-site-footer></div>
+
+    <dialog class="modal product-modal" data-product-modal>
+      <div class="modal-card product-modal-card">
+        <button class="modal-close" type="button" data-product-modal-close>×</button>
+        <div class="product-modal-content" data-product-modal-body></div>
+      </div>
+    </dialog>
+    <script type="module" src="./js/catalog.js"></script>
+  </body>
+</html>
