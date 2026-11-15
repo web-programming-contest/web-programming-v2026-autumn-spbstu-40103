@@ -1,37 +1,57 @@
 <!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Форма регистрации</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <form class="reg-form" id="reg-form" action="#" method="post" novalidate>
-        <div class="field">
-            <input type="text" name="name" placeholder="Имя" autocomplete="name">
-            <span class="error"></span>
-        </div>
-        <div class="field">
-            <input type="email" name="email" placeholder="E-mail" autocomplete="email">
-            <span class="error"></span>
-        </div>
-        <div class="field">
-            <input type="tel" name="phone" placeholder="Телефон" autocomplete="tel">
-            <span class="error"></span>
-        </div>
-        <div class="field">
-            <input type="password" name="password" placeholder="Пароль" autocomplete="new-password">
-            <span class="error"></span>
-        </div>
-        <div class="field">
-            <input type="password" name="password2" placeholder="Пароль еще раз" autocomplete="new-password">
-            <span class="error"></span>
-        </div>
-        <button type="submit">Регистрация</button>
-        <p class="message" id="message"></p>
+      <div class="field">
+        <input type="text" name="name" placeholder="Имя" autocomplete="name" />
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input
+          type="email"
+          name="email"
+          placeholder="E-mail"
+          autocomplete="email"
+        />
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Телефон"
+          autocomplete="tel"
+        />
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input
+          type="password"
+          name="password"
+          placeholder="Пароль"
+          autocomplete="new-password"
+        />
+        <span class="error"></span>
+      </div>
+      <div class="field">
+        <input
+          type="password"
+          name="password2"
+          placeholder="Пароль еще раз"
+          autocomplete="new-password"
+        />
+        <span class="error"></span>
+      </div>
+      <button type="submit">Регистрация</button>
+      <p class="message" id="message"></p>
     </form>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
