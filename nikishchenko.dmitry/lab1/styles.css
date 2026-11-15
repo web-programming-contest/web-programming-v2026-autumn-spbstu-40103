@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.reg-form {
+form {
     box-sizing: border-box;
     width: 400px;
     max-width: 100%;
@@ -21,7 +21,7 @@ body {
     margin-bottom: 8px;
 }
 
-.reg-form input {
+form input {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -35,11 +35,11 @@ body {
     color: #333333;
 }
 
-.reg-form input::placeholder {
+form input::placeholder {
     color: #777777;
 }
 
-.reg-form input:focus {
+form input:focus {
     outline: none;
     border-color: #0056ff;
 }
@@ -59,7 +59,7 @@ body {
     border-color: #c62828;
 }
 
-.reg-form button {
+form button {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -73,7 +73,7 @@ body {
     cursor: pointer;
 }
 
-.reg-form button:hover {
+form button:hover {
     background-color: #417ffb;
 }
 
