@@ -1,4 +1,4 @@
-function hexToRgb(hex) {
+export function hexToRgb(hex) {
   hex = hex.trim().replace('#', '');
 
   if (hex.length === 3) {
