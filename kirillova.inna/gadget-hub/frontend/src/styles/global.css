@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Rubik;
+  src: url('/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-primary: #115efb;
+  --color-primary-dark: #0d3f9e;
+  --color-footer-bg: #0e3f9e;
+  --color-pink: #ff4d8d;
+  --color-green: #1ecb7b;
+  --color-text: #14161a;
+  --color-text-muted: #6b7280;
+  --color-border: #e3e6ea;
+  --color-bg: #fff;
+  --color-bg-muted: #f4f6f9;
+  --color-error: #e5384a;
+  --color-star: #ffc531;
+  --content-max-width: 1160px;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 1200px;
+  background-color: var(--color-bg-muted);
+  color: var(--color-text);
+  font-family: Rubik, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
