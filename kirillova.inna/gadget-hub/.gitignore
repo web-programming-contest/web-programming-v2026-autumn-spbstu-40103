@@ -1,0 +1,22 @@
+# Node / frontend
+node_modules/
+frontend/dist/
+npm-debug.log*
+
+# Java / backend
+backend/target/
+backend/data/
+*.class
+
+# IDE и ОС
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Прочее
+*.log
+*.tmp
+.env
+cookies.txt
