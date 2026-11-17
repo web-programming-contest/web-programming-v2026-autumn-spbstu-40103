@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Программисты и языки</h1>
+
+      <form data-testid="entity-form">
+        <label for="prog-id">ID</label>
+        <input
+          id="prog-id"
+          type="number"
+          name="id"
+          placeholder="Авто"
+          min="1"
+        />
+
+        <label for="prog-name">Имя</label>
+        <input
+          id="prog-name"
+          type="text"
+          name="name"
+          placeholder="Имя программиста"
+          required
+        />
+
+        <button type="submit">Добавить программиста</button>
+      </form>
+
+      <section
+        data-testid="entity-list"
+        aria-label="Список программистов"
+      ></section>
+
+      <section class="grouping-section" aria-label="Группировки">
+        <h2>По языкам</h2>
+        <table class="group-table">
+          <tbody class="group-by-lang"></tbody>
+        </table>
+
+        <h2>Уникальные языки</h2>
+        <div class="unique-langs"></div>
+
+        <h2>По количеству языков</h2>
+        <table class="group-table">
+          <tbody class="group-by-count"></tbody>
+        </table>
+
+        <h2>Топ полиглотов</h2>
+        <div class="top-polyglots"></div>
+      </section>
+    </main>
+
+    <div class="modal-overlay" id="lang-modal">
+      <div class="modal">
+        <h2>Управление языками</h2>
+        <form id="lang-form" data-action="add">
+          <label for="lang-input">Язык</label>
+          <input
+            id="lang-input"
+            type="text"
+            placeholder="Например: Python"
+            required
+          />
+
+          <div class="modal-actions">
+            <button type="submit" class="btn btn-primary" id="btn-add-lang">
+              Добавить
+            </button>
+            <button type="button" class="btn btn-danger" id="btn-remove-lang">
+              Удалить
+            </button>
+            <button type="button" class="btn btn-secondary" id="btn-close-lang">
+              Закрыть
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

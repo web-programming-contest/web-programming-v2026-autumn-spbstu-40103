@@ -1,0 +1,264 @@
+/* ── Reset & Base ───────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #f0f2f5;
+  color: #212529;
+  padding: 24px;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 20px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* ── Form ───────────────────────────────────────────── */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  margin-bottom: 24px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+form input {
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+form input:focus {
+  outline: 2px solid #0d6efd;
+  outline-offset: 1px;
+}
+
+/* ── Buttons ────────────────────────────────────────── */
+button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button:focus-visible {
+  outline: 2px solid #0d6efd;
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0b5ed7;
+}
+
+.btn-danger {
+  background: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: #bb2d3b;
+}
+
+.btn-secondary {
+  background: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #5c636a;
+}
+
+.btn-sm {
+  padding: 5px 12px;
+  font-size: 0.82rem;
+}
+
+/* ── Cards ──────────────────────────────────────────── */
+section[data-testid='entity-list'] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+article[data-testid='entity-card'] {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+  transition: box-shadow 0.2s;
+}
+
+article[data-testid='entity-card']:hover {
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.13);
+}
+
+article h3 {
+  margin-bottom: 8px;
+}
+
+.card-lang-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.lang-badge {
+  display: inline-block;
+  background: #e9ecef;
+  border-radius: 12px;
+  padding: 3px 10px;
+  font-size: 0.82rem;
+}
+
+.card-lang-count {
+  color: #6c757d;
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* ── Grouping ───────────────────────────────────────── */
+.grouping-section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+  margin-bottom: 20px;
+}
+
+.group-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.group-table th,
+.group-table td {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 0.9rem;
+}
+
+.group-table th {
+  background: #f8f9fa;
+}
+
+/* ── Modal ──────────────────────────────────────────── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 0.45);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 28px 32px;
+  min-width: 340px;
+  max-width: 420px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.2);
+}
+
+.modal h2 {
+  margin-bottom: 16px;
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: none;
+  padding: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+
+.modal label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.modal form input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
