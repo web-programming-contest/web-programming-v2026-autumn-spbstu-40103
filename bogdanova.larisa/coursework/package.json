@@ -1,0 +1,21 @@
+{
+  "name": "gadget-hub-course",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prestart": "node check-deps.js",
+    "start": "node start.js",
+    "backend": "node backend/server.js",
+    "frontend": "vite frontend",
+    "build": "vite build frontend",
+    "preview": "vite preview frontend",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
