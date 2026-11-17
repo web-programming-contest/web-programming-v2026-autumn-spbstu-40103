@@ -1,0 +1,17 @@
+node_modules/
+
+package-lock.json
+
+dist/
+frontend/dist/
+
+backend/data/orders.tmp
+
+*.log
+npm-debug.log*
+
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
