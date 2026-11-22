@@ -5,10 +5,10 @@ import {
   getCoursesByStudentId,
   groupStudentsByCourse,
   getCoursesWithMaxStudents,
-  createSampleCourses
+  createSampleCourses,
 } from './course.js';
 
-localStorage.removeItem('courses');
+// localStorage.removeItem('courses');
 
 const STORAGE_KEY = 'courses';
 const DELAY = 500;
@@ -100,15 +100,23 @@ function showMessage(text, isError = false, sticky = false) {
 function plural(n, one, few, many) {
   const m10 = n % 10;
   const m100 = n % 100;
-  if (m10 === 1 && m100 !== 11) {return one;}
-  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) {return few;}
+  if (m10 === 1 && m100 !== 11) {
+    return one;
+  }
+  if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) {
+    return few;
+  }
   return many;
 }
 
 function el(tag, className, text) {
   const node = document.createElement(tag);
-  if (className) {node.className = className;}
-  if (text !== undefined) {node.textContent = text;}
+  if (className) {
+    node.className = className;
+  }
+  if (text !== undefined) {
+    node.textContent = text;
+  }
   return node;
 }
 
@@ -121,7 +129,9 @@ function button(text, className, onClick) {
 
 function findCourse(courseId) {
   const course = courses.find((c) => c.courseId === courseId);
-  if (!course) {throw new Error('Курс не найден.');}
+  if (!course) {
+    throw new Error('Курс не найден.');
+  }
   return course;
 }
 
@@ -131,8 +141,12 @@ function createCard(course, index) {
   card.style.setProperty('--bg', bg);
   card.style.setProperty('--fg', fg);
   card.style.setProperty('--i', index);
-  if (firstRender) {card.classList.add('intro');}
-  if (fresh.courseId === course.courseId) {card.classList.add('fresh');}
+  if (firstRender) {
+    card.classList.add('intro');
+  }
+  if (fresh.courseId === course.courseId) {
+    card.classList.add('fresh');
+  }
 
   const n = course.studentCount;
   const meta = el('div', 'card-meta');
@@ -149,8 +163,9 @@ function createCard(course, index) {
   }
   for (const student of course.students) {
     const chip = el('li', 'chip');
-    if (fresh.studentKey === `${course.courseId}:${student.id}`)
-      {chip.classList.add('fresh');}
+    if (fresh.studentKey === `${course.courseId}:${student.id}`) {
+      chip.classList.add('fresh');
+    }
 
     const remove = button('×', 'chip-remove', () =>
       perform(

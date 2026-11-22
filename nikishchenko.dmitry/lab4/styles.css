@@ -4,8 +4,8 @@
   --muted: #5b6085;
   --cobalt: #3a5bff;
   --danger: #d6245f;
-  --font-display: 'Unbounded', 'Lora', 'Segoe UI', system-ui, sans-serif;
-  --font-body: 'Inter', 'Segoe UI', system-ui, -apple-system, arial, sans-serif;
+  --font-display: 'Lora', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Lora', 'Segoe UI', system-ui, sans-serif;
 }
 
 * {
@@ -94,7 +94,7 @@ select {
   transition: border-color 0.15s;
 }
 
-select input:hover,
+input:hover,
 select:hover {
   border-color: #c9cfef;
 }
