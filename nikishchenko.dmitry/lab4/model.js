@@ -70,7 +70,7 @@ export function groupStudentsByCourse(courses) {
   return result;
 }
 
-export function getCoursesWithMaxStudents(courses) {
+export function findLargestCourses(courses) {
   if (courses.length === 0) {
     return [];
   }

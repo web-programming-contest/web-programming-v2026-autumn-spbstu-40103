@@ -4,7 +4,7 @@ import {
   getUniqueStudents,
   findCoursesByStudent,
   groupStudentsByCourse,
-  getCoursesWithMaxStudents,
+  findLargestCourses,
   createSampleCourses,
 } from './model.js';
 
@@ -328,5 +328,5 @@ console.warn('Курсы студента с id=1:', findCoursesByStudent(course
 console.warn('Студенты по курсам:', groupStudentsByCourse(courses));
 console.warn(
   'Курсы с максимумом студентов:',
-  getCoursesWithMaxStudents(courses),
+  findLargestCourses(courses),
 );
