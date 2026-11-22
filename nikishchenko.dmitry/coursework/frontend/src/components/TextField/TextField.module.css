@@ -1,0 +1,83 @@
+/* Состояния: default / hover / active (focus) / filled / disabled / error — блок Forms UI-кита */
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-size: var(--fs-14);
+  line-height: 21px;
+  transition: color 0.15s;
+}
+
+.field:focus-within .label {
+  color: var(--color-blue);
+}
+
+.control {
+  position: relative;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  background: var(--color-gray);
+  font-size: var(--fs-16);
+  color: var(--color-text);
+  outline: none;
+  transition:
+    border-color 0.15s,
+    background-color 0.15s;
+}
+
+.input::placeholder {
+  color: var(--color-text-4);
+}
+
+.input:hover {
+  border-color: var(--color-blue-light);
+}
+
+.input:focus {
+  border-color: var(--color-blue-light);
+  background: var(--color-bg);
+}
+
+.input:focus-visible {
+  outline: none; /* перебивает общий стиль фокуса: у поля своё состояние (рамка и фон) */
+}
+
+.input:disabled {
+  background: var(--color-bg);
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+/* ошибка: розовая рамка и текст (в макете ошибка розовая, а не красная) */
+.input[aria-invalid='true'],
+.input[aria-invalid='true']:hover,
+.input[aria-invalid='true']:focus {
+  border-color: var(--color-pink);
+}
+
+.error {
+  margin-top: 4px;
+  font-size: var(--fs-14);
+  line-height: 20px;
+  color: var(--color-pink);
+}
+
+.asterisk {
+  position: absolute;
+  top: -11px;
+  left: 100%;
+  font-size: var(--fs-24);
+  line-height: 24px;
+  color: var(--color-pink);
+  pointer-events: none;
+}

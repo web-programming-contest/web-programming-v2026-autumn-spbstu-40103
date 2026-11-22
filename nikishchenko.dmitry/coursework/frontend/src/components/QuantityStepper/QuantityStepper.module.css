@@ -1,0 +1,38 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-gray);
+  color: var(--color-blue);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.button:disabled {
+  color: var(--color-text-4);
+  cursor: default;
+}
+
+.button:hover:not(:disabled),
+.button:active:not(:disabled) {
+  background: var(--color-blue);
+  color: var(--color-white);
+}
+
+.value {
+  min-width: 34px;
+  font-size: var(--fs-20);
+  text-align: center;
+}

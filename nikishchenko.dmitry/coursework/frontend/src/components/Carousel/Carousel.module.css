@@ -1,0 +1,45 @@
+.carousel {
+  position: relative;
+  flex: none;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 286px);
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Стрелки стоят вне сетки карточек; позиции сняты с макета */
+.arrow {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-top: -24px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-blue);
+  transition: background-color 0.15s;
+  z-index: 3;
+}
+
+.prev {
+  left: -49px;
+}
+
+.next {
+  right: -63px;
+}
+
+.arrow:hover,
+.arrow:active {
+  background: var(--color-bg);
+}

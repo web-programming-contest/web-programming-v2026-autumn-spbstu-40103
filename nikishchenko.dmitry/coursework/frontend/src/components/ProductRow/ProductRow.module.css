@@ -1,0 +1,58 @@
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Левая колонка: ширина 318px = отступ от края контейнера до первой карточки */
+.intro {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  width: 318px;
+  padding-right: 60px;
+}
+
+.icon-frame {
+  display: block;
+  margin-bottom: 22px;
+}
+
+.title {
+  margin-bottom: 21px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.text {
+  max-width: 258px;
+  font-size: var(--fs-16);
+  line-height: 24px;
+  color: var(--color-text-3);
+}
+
+.status {
+  flex: 1;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 320px;
+  color: var(--color-text-3);
+}
+
+.retry {
+  height: 40px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.retry:hover {
+  background: var(--color-blue-dark);
+}

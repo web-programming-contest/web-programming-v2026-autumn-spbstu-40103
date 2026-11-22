@@ -1,0 +1,82 @@
+.page {
+  padding: 78px 0 80px;
+}
+
+/* текст первой вкладки стоит ровно по левому краю контента, а её линия выступает на 42px (как в макете) */
+.tabs {
+  margin-left: -42px;
+}
+
+.panel {
+  margin-top: 31px;
+}
+
+/* Карточка шире контента на 40px с каждой стороны (1320px при контенте 1240px), как в макете */
+.card {
+  margin: 0 -40px;
+  padding: 36px 40px 40px;
+  border-radius: 16px;
+  background: var(--color-white);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  height: 32px;
+}
+
+.list {
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-item {
+  padding: 39px 0;
+  border-bottom: 2px solid var(--color-gray);
+}
+
+.list-item:first-child {
+  padding-top: 0;
+}
+
+/* итог стоит в колонке цены (848px от левого края контента) */
+.summary {
+  margin: 21px 0 42px 848px;
+  font-size: var(--fs-24);
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.heading {
+  margin: 82px 0 34px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 80px 0;
+  color: var(--color-text-3);
+  text-align: center;
+}
+
+.retry {
+  height: 40px;
+  margin-top: 8px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.retry:hover {
+  background: var(--color-blue-dark);
+}

@@ -1,0 +1,92 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--header-h);
+  background: var(--color-white);
+  transition: box-shadow 0.2s;
+}
+
+.scrolled {
+  box-shadow: var(--shadow-header);
+}
+
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: block;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+}
+
+.logo img {
+  display: block;
+  width: 160px;
+  height: auto;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+/* В макете последний пункт выступает за край контента на размер своего отступа */
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: -18px;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  height: 48px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  font-size: var(--fs-16);
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--color-blue);
+  white-space: nowrap;
+  transition: background-color 0.15s;
+}
+
+/* hover, нажатие и текущий раздел выглядят одинаково (Button menu из UI-кита) */
+.item:hover,
+.item:active,
+.active {
+  background: var(--color-bg);
+}
+
+/* focus: рамка внутри кнопки, как в макете */
+.item:focus-visible {
+  background: var(--color-white);
+  outline: 2px solid var(--color-blue-light);
+  outline-offset: -2px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 12px;
+  background: var(--color-pink);
+  font-size: var(--fs-14);
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-white);
+}

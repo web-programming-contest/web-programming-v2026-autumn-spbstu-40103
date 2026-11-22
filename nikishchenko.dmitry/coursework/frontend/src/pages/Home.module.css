@@ -1,0 +1,95 @@
+.page {
+  padding-bottom: 88px;
+}
+
+/* Баннер вплотную под шапкой, как в макете (скругления уже в картинке) */
+.banner {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  margin-top: 80px;
+}
+
+.block {
+  margin-top: 87px;
+}
+
+.heading {
+  margin-bottom: 49px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+/* Три колонки по 392px с отступом 32px (сетка 12 колонок: по 4 колонки на блок) */
+.advantages,
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(3, 392px);
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 217px;
+  padding: 32px 32px 30px;
+  border-radius: 32px;
+  background: var(--color-card-gray);
+}
+
+.advantage-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+}
+
+.advantage-text {
+  font-size: var(--fs-24);
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.contacts-block {
+  margin-top: 102px;
+}
+
+.contacts-block .heading {
+  margin-bottom: 38px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: var(--fs-24);
+  font-weight: 500;
+  font-style: normal;
+  line-height: 32px;
+  color: var(--color-text);
+}
+
+.contact:any-link:hover {
+  color: var(--color-blue);
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 40px;
+}

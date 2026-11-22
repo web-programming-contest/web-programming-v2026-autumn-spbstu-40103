@@ -1,0 +1,54 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 48px;
+  padding: 0 32px;
+  border: 0;
+  border-radius: var(--radius);
+  font-size: var(--fs-16);
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-white);
+  white-space: nowrap;
+  transition: background-color 0.15s;
+}
+
+.blue {
+  background: var(--color-blue);
+}
+
+.blue:disabled,
+.blue[aria-disabled='true'] {
+  background: var(--color-blue-light);
+}
+
+.blue:hover:not(:disabled, [aria-disabled='true']),
+.blue:active:not(:disabled, [aria-disabled='true']) {
+  background: var(--color-blue-dark);
+}
+
+.pink {
+  background: var(--color-pink);
+}
+
+.pink:disabled,
+.pink[aria-disabled='true'] {
+  background: var(--color-pink-light);
+}
+
+.pink:hover:not(:disabled, [aria-disabled='true']),
+.pink:active:not(:disabled, [aria-disabled='true']) {
+  background: var(--color-pink-dark);
+}
+
+.button:disabled,
+.button[aria-disabled='true'] {
+  cursor: default;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-blue-light);
+  outline-offset: -2px;
+}

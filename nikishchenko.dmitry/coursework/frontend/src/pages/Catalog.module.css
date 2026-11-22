@@ -1,0 +1,68 @@
+.page {
+  padding: 69px 0 80px;
+}
+
+.title {
+  margin-bottom: 34px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 3 карточки в ряд (ТЗ); четвёртая колонка сетки занята фильтрами */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 286px);
+  gap: 64px 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination {
+  margin-top: 72px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 320px;
+  color: var(--color-text-3);
+  text-align: center;
+}
+
+.empty-title {
+  font-size: var(--fs-24);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.retry {
+  height: 40px;
+  margin-top: 8px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.retry:hover {
+  background: var(--color-blue-dark);
+}

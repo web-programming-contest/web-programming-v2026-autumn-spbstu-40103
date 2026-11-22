@@ -1,0 +1,125 @@
+/* Состояния: default / hover / open / filled / focus / error — блок Select UI-кита */
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-size: var(--fs-14);
+  line-height: 21px;
+}
+
+.control {
+  position: relative;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  background: var(--color-gray);
+  font-size: var(--fs-16);
+  text-align: left;
+  color: var(--color-text);
+  outline: none;
+  transition:
+    border-color 0.15s,
+    background-color 0.15s;
+}
+
+.placeholder {
+  color: var(--color-text-4);
+}
+
+.value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.filled {
+  background: var(--color-bg);
+}
+
+.button:hover,
+.button:focus-visible {
+  border-color: var(--color-blue-light);
+}
+
+.button:focus-visible {
+  box-shadow: 0 0 0 1px var(--color-blue-light);
+}
+
+.open {
+  border-color: var(--color-blue-light);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: var(--color-bg);
+}
+
+.button[aria-invalid='true'],
+.button[aria-invalid='true']:hover {
+  border-color: var(--color-pink);
+}
+
+.chevron {
+  flex: none;
+  color: var(--color-blue);
+  transition: transform 0.15s;
+}
+
+.chevron-open {
+  transform: rotate(180deg);
+}
+
+.list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  margin: -1px 0 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  border: 1px solid var(--color-blue-light);
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--color-bg);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 16px;
+  font-size: var(--fs-16);
+  cursor: pointer;
+}
+
+.active-option {
+  background: var(--color-gray-blue);
+}
+
+.error {
+  margin-top: 4px;
+  font-size: var(--fs-14);
+  line-height: 20px;
+  color: var(--color-pink);
+}
+
+.asterisk {
+  position: absolute;
+  top: -11px;
+  left: 100%;
+  font-size: var(--fs-24);
+  line-height: 24px;
+  color: var(--color-pink);
+  pointer-events: none;
+}

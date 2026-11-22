@@ -1,0 +1,77 @@
+[
+  {
+    "id": 567800,
+    "login": "admin",
+    "date": "2024-04-28",
+    "items": [],
+    "itemsCount": 1,
+    "total": 6990,
+    "email": null,
+    "phone": null,
+    "delivery": "pickup",
+    "address": null,
+    "payment": "card",
+    "packaging": false
+  },
+  {
+    "id": 436789,
+    "login": "admin",
+    "date": "2024-03-01",
+    "items": [],
+    "itemsCount": 4,
+    "total": 54378,
+    "email": null,
+    "phone": null,
+    "delivery": "pickup",
+    "address": null,
+    "payment": "card",
+    "packaging": false
+  },
+  {
+    "id": 405674,
+    "login": "admin",
+    "date": "2024-02-12",
+    "items": [],
+    "itemsCount": 2,
+    "total": 1300,
+    "email": null,
+    "phone": null,
+    "delivery": "pickup",
+    "address": null,
+    "payment": "card",
+    "packaging": false
+  },
+  {
+    "id": 40124,
+    "date": "2026-11-18",
+    "login": "admin",
+    "items": [
+      {
+        "goodId": 30,
+        "name": "Умный чемодан-скутер серый",
+        "qty": 1,
+        "price": 167890
+      },
+      {
+        "goodId": 33,
+        "name": "Смартфон Apple iPhone 15 256 ГБ розовый",
+        "qty": 1,
+        "price": 102099
+      },
+      {
+        "goodId": 40,
+        "name": "Шлем виртуальной реальности Pico 4 128GB (PC4-128)",
+        "qty": 1,
+        "price": 49990
+      }
+    ],
+    "itemsCount": 3,
+    "total": 319979,
+    "email": "n@gmail.com",
+    "phone": null,
+    "delivery": "pickup",
+    "address": null,
+    "payment": "card",
+    "packaging": true
+  }
+]

@@ -1,0 +1,29 @@
+.picture {
+  display: block;
+  margin: -7px 0 0;
+}
+
+.title {
+  margin-top: 18px;
+  font-size: var(--fs-24);
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.text {
+  margin-top: 12px;
+  font-size: var(--fs-16);
+  line-height: 24px;
+}
+
+.text + .text {
+  margin-top: 6px;
+}
+
+.title + .text {
+  margin-top: 14px;
+}
+
+.text + div {
+  margin-top: 33px;
+}
