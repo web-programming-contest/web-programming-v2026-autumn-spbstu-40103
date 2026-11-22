@@ -57,8 +57,7 @@
   курсам
 - `findCoursesByStudent(courses, studentId)` — курсы, на которые записан студент
 - `groupStudentsByCourse(courses)` — объект «название курса → список студентов»
-- `findLargestCourses(courses)` — курсы с наибольшим количеством
-  студентов
+- `findLargestCourses(courses)` — курсы с наибольшим количеством студентов
 - `createSampleCourses()` — начальные данные (3 курса)
 
 **Интерфейс.**

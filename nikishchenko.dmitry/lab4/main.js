@@ -326,7 +326,4 @@ console.warn(
 console.warn('Уникальные студенты:', getUniqueStudents(courses));
 console.warn('Курсы студента с id=1:', findCoursesByStudent(courses, 1));
 console.warn('Студенты по курсам:', groupStudentsByCourse(courses));
-console.warn(
-  'Курсы с максимумом студентов:',
-  findLargestCourses(courses),
-);
+console.warn('Курсы с максимумом студентов:', findLargestCourses(courses));
