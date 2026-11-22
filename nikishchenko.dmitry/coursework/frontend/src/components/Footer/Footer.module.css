@@ -1,0 +1,69 @@
+.footer {
+  background: var(--color-blue-dark);
+  color: var(--color-footer-text);
+  padding: 40px 0 50px;
+}
+
+/* Левая колонка занимает ровно половину сетки, телефон начинается от середины */
+.inner {
+  display: grid;
+  grid-template-columns: 648px 1fr auto;
+  align-items: start;
+}
+
+.title {
+  font-size: var(--fs-24);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.text {
+  margin-top: 2px;
+  font-size: var(--fs-16);
+  line-height: 24px;
+  color: var(--color-blue-light);
+}
+
+.copyright {
+  margin-top: 30px;
+}
+
+.phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  height: 38px;
+  font-size: var(--fs-24);
+  font-weight: 500;
+  color: var(--color-footer-text);
+  white-space: nowrap;
+  justify-self: start;
+}
+
+.phone:hover {
+  color: var(--color-white);
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social {
+  display: block;
+  border-radius: 50%;
+  transition:
+    opacity 0.15s,
+    transform 0.15s;
+}
+
+.social:hover {
+  opacity: 0.85;
+}
+
+.social:active {
+  transform: scale(0.94);
+}

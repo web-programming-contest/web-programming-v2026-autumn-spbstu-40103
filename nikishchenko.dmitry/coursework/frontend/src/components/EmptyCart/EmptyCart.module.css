@@ -1,0 +1,39 @@
+.empty {
+  padding-top: 8px;
+}
+
+.picture {
+  display: block;
+}
+
+.title {
+  margin-top: 34px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.text {
+  max-width: 400px;
+  margin-top: 18px;
+  font-size: var(--fs-16);
+  line-height: 24px;
+  color: var(--color-text-2);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.home {
+  font-size: var(--fs-16);
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.home:hover {
+  color: var(--color-blue-dark);
+}

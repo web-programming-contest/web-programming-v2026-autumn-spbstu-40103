@@ -1,0 +1,66 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Номера страниц стоят на месте, стрелки выступают по бокам и не сдвигают номера */
+.pages {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.item,
+.gap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  font-size: var(--fs-14);
+}
+
+.item {
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-blue);
+  transition:
+    background-color 0.15s,
+    color 0.15s;
+}
+
+.item:hover:not(.current) {
+  background: var(--color-blue-light);
+  color: var(--color-white);
+}
+
+.current {
+  background: var(--color-blue);
+  color: var(--color-white);
+  cursor: default;
+}
+
+.gap {
+  color: var(--color-text);
+}
+
+.prev,
+.next {
+  position: absolute;
+}
+
+.prev {
+  right: 100%;
+}
+
+.next {
+  left: 100%;
+}
+
+.item.prev:hover,
+.item.next:hover {
+  background: var(--color-bg);
+  color: var(--color-blue);
+}

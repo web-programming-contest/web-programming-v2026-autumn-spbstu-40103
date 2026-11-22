@@ -1,0 +1,52 @@
+/* карточка шире контента на 40px с каждой стороны, как в макете (1320px при контенте 1240px) */
+.card {
+  margin: 0 -40px;
+  padding: 0 40px;
+  list-style: none;
+  border-radius: 16px;
+  background: var(--color-white);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 530px 318px 1fr;
+  align-items: center;
+  height: 64px;
+  font-size: var(--fs-16);
+}
+
+/* разделитель между строками (не после последней) */
+.row + .row {
+  border-top: 2px solid var(--color-gray);
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 64px 0;
+  color: var(--color-text-3);
+  text-align: center;
+}
+
+.empty-title {
+  font-size: var(--fs-24);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.retry {
+  height: 40px;
+  margin-top: 8px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--color-blue);
+  color: var(--color-white);
+  font-weight: 500;
+}
+
+.retry:hover {
+  background: var(--color-blue-dark);
+}

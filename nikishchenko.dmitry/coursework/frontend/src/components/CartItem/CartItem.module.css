@@ -1,0 +1,48 @@
+/* Колонки сняты с макета (в px от левого края контента): флажок 0, фото 32, название 200,
+   количество 636, сумма 848, «Удалить» 1060 */
+.item {
+  display: grid;
+  grid-template-columns: 32px 168px 436px 212px 212px 1fr;
+  align-items: start;
+}
+
+.check {
+  align-self: center;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 148px;
+  border-radius: 16px;
+  background: var(--color-gray);
+}
+
+.photo img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.name {
+  max-width: 360px;
+  padding-top: 4px;
+  font-size: var(--fs-16);
+  font-weight: 400;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+/* первая строка всех ячеек стоит на одном уровне с названием (центр на 16px от верха плитки) */
+.cell {
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+}
+
+.sum {
+  font-size: var(--fs-20);
+  font-weight: 500;
+}

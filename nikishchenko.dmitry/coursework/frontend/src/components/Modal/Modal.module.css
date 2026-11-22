@@ -1,0 +1,58 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 24px;
+  overflow-y: auto;
+  background: var(--color-overlay);
+}
+
+/* margin: auto центрирует окно, а если оно выше экрана, его можно прокрутить */
+.dialog {
+  position: relative;
+  width: 556px;
+  max-width: 100%;
+  margin: auto;
+  padding: 56px;
+  border-radius: 40px;
+  background: var(--color-white);
+  outline: none;
+}
+
+.close {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-gray-blue);
+  transition: color 0.15s;
+}
+
+.close:hover {
+  color: var(--color-blue-light);
+}
+
+.close:active {
+  color: var(--color-blue);
+}
+
+.message {
+  margin: 24px 0 32px;
+  font-size: var(--fs-20);
+  font-weight: 500;
+  line-height: 28px;
+  overflow-wrap: anywhere; /* длинное слово не растянет окно */
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+}

@@ -1,0 +1,78 @@
+.group {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+/* легенда нужна только для экранных читалок */
+.legend {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.row {
+  display: flex;
+  gap: 44px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 32px;
+  margin: 0 -8px;
+  padding: 0 8px;
+  border-radius: var(--radius);
+  font-size: var(--fs-16);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-gray);
+  transition: background-color 0.15s;
+}
+
+.input:checked + .circle {
+  background: var(--color-blue);
+}
+
+.input:checked + .circle::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-white);
+}
+
+.radio:hover {
+  background: var(--color-bg);
+}
+
+.radio:hover .label {
+  color: var(--color-blue-dark);
+}
+
+.radio:has(.input:focus-visible) {
+  outline: 2px solid var(--color-blue-light);
+  outline-offset: -2px;
+}

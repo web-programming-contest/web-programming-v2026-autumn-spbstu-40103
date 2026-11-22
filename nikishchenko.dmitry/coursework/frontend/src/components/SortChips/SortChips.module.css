@@ -1,0 +1,36 @@
+.chips {
+  display: flex;
+}
+
+.chip {
+  height: 32px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: var(--radius);
+  background: transparent;
+  font-size: var(--fs-16);
+  line-height: 32px;
+  color: var(--color-blue);
+  transition: background-color 0.15s;
+}
+
+/* невыбранный вариант выглядит как ссылка с пунктирным подчёркиванием */
+.label {
+  padding-bottom: 1px;
+  border-bottom: 1px dashed currentcolor;
+}
+
+.chip:hover:not(.active),
+.chip:active:not(.active) {
+  background: var(--color-bg);
+}
+
+.active {
+  background: var(--color-blue-light);
+  color: var(--color-white);
+  cursor: default;
+}
+
+.active .label {
+  border-bottom-color: transparent;
+}

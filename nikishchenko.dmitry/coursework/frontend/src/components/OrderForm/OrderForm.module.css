@@ -1,0 +1,48 @@
+/* Карточка шире контента на 40px с каждой стороны (1320px при контенте 1240px), как в макете */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  margin: 0 -40px;
+  padding: 40px;
+  border-radius: 16px;
+  background: var(--color-white);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 286px 286px;
+  gap: 32px;
+}
+
+.wide {
+  width: 604px;
+}
+
+.narrow {
+  width: 286px;
+}
+
+/* поправки к общему отступу между блоками: так расстояния совпадают с макетом */
+.radio {
+  margin-top: -2px;
+}
+
+.address {
+  margin-top: 2px;
+}
+
+.payment {
+  margin-top: 3px;
+}
+
+.form-error {
+  font-size: var(--fs-14);
+  line-height: 20px;
+  color: var(--color-pink);
+}
+
+.submit {
+  align-self: flex-start;
+}

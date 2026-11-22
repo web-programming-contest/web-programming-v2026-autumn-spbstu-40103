@@ -1,0 +1,6 @@
+/* flex: 1 прижимает подвал к низу, даже когда контента мало */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

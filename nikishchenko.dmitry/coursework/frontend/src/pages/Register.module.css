@@ -1,0 +1,61 @@
+/* Оформление повторяет страницу входа, чтобы обе формы выглядели единообразно. */
+.page {
+  flex: 1;
+  min-height: 940px;
+  padding-top: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-bg-login) url('/images/login-bg.png') center top /
+    cover no-repeat;
+}
+
+.title {
+  margin-bottom: 35px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 382px;
+  padding: 48px;
+  border-radius: var(--radius);
+  background: var(--color-white);
+}
+
+.submit {
+  align-self: flex-start;
+}
+
+.success-message {
+  align-self: flex-start;
+  font-size: var(--fs-14);
+  line-height: 21px;
+  color: var(--color-text-2);
+}
+
+.success-link {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+.success-link:hover {
+  text-decoration: underline;
+}
+
+@media (width <= 520px) {
+  .page {
+    min-height: 100vh;
+    padding: 100px 16px 48px;
+  }
+
+  .card {
+    width: min(100%, 382px);
+    padding: 32px 24px;
+  }
+}

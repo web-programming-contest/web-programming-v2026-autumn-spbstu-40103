@@ -1,0 +1,138 @@
+.layout {
+  display: grid;
+  grid-template-columns: 392px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 440px;
+  border-radius: 24px;
+  background: var(--color-gray);
+}
+
+.photo img {
+  width: 392px;
+  height: 392px;
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.title {
+  margin-top: 3px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 44px;
+  overflow-wrap: anywhere;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 21px;
+  height: 24px;
+  font-size: var(--fs-16);
+  color: var(--color-text-2);
+}
+
+.label {
+  height: 26px;
+  margin-left: 12px;
+  padding: 0 8px;
+  border-radius: 13px;
+  font-size: var(--fs-12);
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--color-white);
+}
+
+.label + .label {
+  margin-left: 8px;
+}
+
+.new {
+  background: var(--color-green);
+}
+
+.hit {
+  background: var(--color-pink);
+}
+
+.description {
+  margin-top: 32px;
+  font-size: var(--fs-16);
+  line-height: 24px;
+  color: var(--color-text-2);
+  overflow-wrap: anywhere;
+}
+
+.specs-title {
+  margin-top: 25px;
+  font-size: var(--fs-20);
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 17px 0 0;
+}
+
+/* «Название ——— значение»: линия-заполнитель стоит на уровне первой строки */
+.spec {
+  display: flex;
+  font-size: var(--fs-16);
+  line-height: 24px;
+  color: var(--color-text-2);
+}
+
+.spec dt,
+.spec dd {
+  margin: 0;
+}
+
+.spec dt {
+  flex: 0 1 auto;
+  max-width: 45%;
+  overflow-wrap: anywhere;
+}
+
+.spec dd {
+  max-width: 280px;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.leader {
+  flex: 1;
+  align-self: flex-start;
+  min-width: 16px;
+  height: 18px;
+  margin: 0 2px;
+  border-bottom: 1px solid var(--color-text-4);
+}
+
+.buy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 36px;
+}
+
+.price {
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 40px;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "login": "admin",
+    "salt": "4c913beae65e1e9efb69a62ae5ab2bc7",
+    "hash": "5832170458cbb141702b581dc8c977d968e838fdeb02f25ce10761e5c500f8a9"
+  },
+  {
+    "login": "d1mene",
+    "salt": "1c76667d7edfdf51b2d704f8c09e5228",
+    "hash": "97e59fa22976da4dab3efc9d4b801b42cbb72e38ec40e6ff90ff3df09db905a6"
+  },
+  {
+    "login": "d1men",
+    "salt": "bdf05d6011fb9323ecb86b082222ece7",
+    "hash": "d5aaa25efeedb148790b3187c806610cb7af9b5719e78d010e1e97a8aa8e54ed"
+  }
+]

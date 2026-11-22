@@ -1,0 +1,54 @@
+/* Иллюстрация вынесена из макета. cover: на экране шире 1900px она растягивается и края картинки не видны,
+   на экране уже 1900px обрезается по краям (по центру остаётся форма). На 1900px выглядит ровно как в макете. */
+.page {
+  flex: 1;
+  min-height: 940px;
+  padding-top: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-bg-login) url('/images/login-bg.png') center top /
+    cover no-repeat;
+}
+
+.title {
+  margin-bottom: 35px;
+  font-size: var(--fs-32);
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 382px;
+  padding: 48px;
+  border-radius: var(--radius);
+  background: var(--color-white);
+}
+
+.submit {
+  align-self: flex-start;
+}
+
+/* Ненавязчивая ссылка на создание аккаунта между паролем и кнопкой входа. */
+.register-link {
+  align-self: flex-start;
+  margin: -16px 0;
+  color: var(--color-text-3);
+  font-size: var(--fs-14);
+  line-height: 20px;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.register-link:hover {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+
+.register-link:focus-visible {
+  border-radius: 2px;
+}

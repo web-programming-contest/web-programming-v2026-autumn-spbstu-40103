@@ -1,0 +1,34 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  font-size: var(--fs-16);
+  line-height: 24px;
+  transition: color 0.15s;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.pink {
+  color: var(--color-pink);
+}
+
+.pink:hover,
+.pink:active {
+  color: var(--color-pink-dark);
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+.blue:hover,
+.blue:active {
+  color: var(--color-blue-dark);
+}
