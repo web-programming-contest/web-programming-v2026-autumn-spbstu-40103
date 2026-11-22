@@ -73,32 +73,5 @@
     "address": null,
     "payment": "card",
     "packaging": true
-  },
-  {
-    "id": 23136,
-    "date": "2026-11-22",
-    "login": "d1men",
-    "items": [
-      {
-        "goodId": 6,
-        "name": "Смартфон 256 ГБ фиолетовый",
-        "qty": 1,
-        "price": 54990
-      },
-      {
-        "goodId": 33,
-        "name": "Смартфон Apple iPhone 15 256 ГБ розовый",
-        "qty": 3,
-        "price": 102099
-      }
-    ],
-    "itemsCount": 4,
-    "total": 361287,
-    "email": "n@mail.ru",
-    "phone": "+79666666666",
-    "delivery": "pickup",
-    "address": null,
-    "payment": "cash",
-    "packaging": false
   }
 ]
