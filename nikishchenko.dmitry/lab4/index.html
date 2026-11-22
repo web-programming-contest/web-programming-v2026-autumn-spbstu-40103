@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы и студенты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="rail">
+            <header>
+                <h1>Курсы и студенты</h1>
+                <p id="summary" class="summary"></p>
+            </header>
+
+            <form id="course-form">
+                <h2>Новый курс</h2>
+                <div class="row">
+                    <label>ID
+                        <input type="number" name="courseId" min="1" step="1" inputmode="numeric" required>
+                    </label>
+                    <label>Название
+                        <input type="text" name="title" autocomplete="off" required>
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary">Добавить курс</button>
+            </form>
+
+            <form id="student-form">
+                <h2>Новый студент</h2>
+                <label>Курс
+                    <select id="student-course" name="courseId" required></select>
+                </label>
+                <div class="row">
+                    <label>ID
+                        <input type="number" id="student-id" name="studentId" min="1" step="1" inputmode="numeric" required>
+                    </label>
+                    <label>Имя
+                        <input type="text" name="studentName" autocomplete="off" required>
+                    </label>
+                </div>
+                <button type="submit" class="btn-primary">Добавить студента</button>
+            </form>
+        </aside>
+
+        <main>
+            <div id="courses" class="courses"></div>
+        </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="course.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
