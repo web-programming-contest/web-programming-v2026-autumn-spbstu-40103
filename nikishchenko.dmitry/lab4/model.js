@@ -56,7 +56,7 @@ export function getUniqueStudents(courses) {
   return [...unique.values()];
 }
 
-export function getCoursesByStudentId(courses, studentId) {
+export function findCoursesByStudent(courses, studentId) {
   return courses.filter((course) =>
     course.students.some((s) => s.id === studentId),
   );

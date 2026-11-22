@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Курсы и студенты</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="main.js"></script>
   </head>
@@ -21,7 +15,7 @@
           <p id="summary" class="summary"></p>
         </header>
 
-        <form id="course-form">
+        <form id="course-form" data-testid="entity-form">
           <h2>Новый курс</h2>
           <div class="row">
             <label
@@ -43,7 +37,7 @@
           <button type="submit" class="btn-primary">Добавить курс</button>
         </form>
 
-        <form id="student-form">
+        <form id="student-form" data-testid="item-form">
           <h2>Новый студент</h2>
           <label
             >Курс
@@ -77,7 +71,7 @@
       </aside>
 
       <main>
-        <div id="courses" class="courses"></div>
+        <div id="courses" class="courses" data-testid="entity-list"></div>
       </main>
     </div>
 

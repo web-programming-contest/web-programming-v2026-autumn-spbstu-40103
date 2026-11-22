@@ -4,8 +4,14 @@
   --muted: #5b6085;
   --cobalt: #3a5bff;
   --danger: #d6245f;
-  --font-display: 'Lora', 'Segoe UI', system-ui, sans-serif;
-  --font-body: 'Lora', 'Segoe UI', system-ui, sans-serif;
+  --font-display: 'Unbounded', 'Lora', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, -apple-system, arial, sans-serif;
+  --t-fast: 0.15s;
+  --t-toast: 0.2s;
+  --t-intro: 0.6s;
+  --t-deal: 0.5s;
+  --t-pop: 0.4s;
+  --stagger: 70ms;
 }
 
 * {
@@ -91,7 +97,15 @@ select {
   background-color: #fff;
   color: var(--ink);
   font: 500 16px var(--font-body);
-  transition: border-color 0.15s;
+  transition: border-color var(--t-fast);
+}
+
+select {
+  appearance: none;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23171a3a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
 }
 
 input:hover,
@@ -116,14 +130,6 @@ input[type='number']::-webkit-inner-spin-button {
   margin: 0;
 }
 
-select {
-  appearance: none;
-  padding-right: 40px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23171a3a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 16px center;
-}
-
 .btn-primary {
   height: 48px;
   border: 0;
@@ -132,7 +138,7 @@ select {
   color: #fff;
   font: 600 16px var(--font-body);
   cursor: pointer;
-  transition: background-color 0.15s;
+  transition: background-color var(--t-fast);
 }
 
 .btn-primary:hover {
@@ -266,8 +272,8 @@ select {
   font: 600 14px var(--font-body);
   cursor: pointer;
   transition:
-    background-color 0.15s,
-    color 0.15s;
+    background-color var(--t-fast),
+    color var(--t-fast);
 }
 
 .btn-ghost:hover {
@@ -333,8 +339,8 @@ select {
   transform: translate(-50%, 16px);
   pointer-events: none;
   transition:
-    opacity 0.2s,
-    transform 0.2s;
+    opacity var(--t-toast),
+    transform var(--t-toast);
 }
 
 .toast.show {
@@ -375,24 +381,26 @@ select {
 }
 
 .card.intro {
-  animation: deal 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
-  animation-delay: calc(var(--i) * 70ms);
+  animation: deal var(--t-intro) cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i) * var(--stagger));
 }
 
 .card.fresh {
-  animation: deal 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation: deal var(--t-deal) cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
 .chip.fresh {
-  animation: pop 0.4s ease-out;
+  animation: pop var(--t-pop) ease-out;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation: none !important;
-    transition: none !important;
+  :root {
+    --t-fast: 0s;
+    --t-toast: 0s;
+    --t-intro: 0s;
+    --t-deal: 0s;
+    --t-pop: 0s;
+    --stagger: 0ms;
   }
 }
 

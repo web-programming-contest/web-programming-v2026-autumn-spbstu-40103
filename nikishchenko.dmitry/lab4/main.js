@@ -2,7 +2,7 @@ import {
   Course,
   groupCoursesByStudentCount,
   getUniqueStudents,
-  getCoursesByStudentId,
+  findCoursesByStudent,
   groupStudentsByCourse,
   getCoursesWithMaxStudents,
   createSampleCourses,
@@ -136,6 +136,7 @@ function findCourse(courseId) {
 function createCard(course, index) {
   const {bg, fg} = PALETTE[course.courseId % PALETTE.length];
   const card = el('article', 'card');
+  card.dataset.testid = 'entity-card';
   card.style.setProperty('--bg', bg);
   card.style.setProperty('--fg', fg);
   card.style.setProperty('--i', index);
@@ -154,6 +155,7 @@ function createCard(course, index) {
   );
 
   const list = el('ul', 'students');
+  list.dataset.testid = 'item-list';
   if (n === 0) {
     list.append(
       el('li', 'empty-students', 'Пока никого. Добавьте первого студента.'),
@@ -183,6 +185,14 @@ function createCard(course, index) {
     list.append(chip);
   }
 
+  const removeCourse = button('Удалить курс', 'btn-text', () =>
+    perform(() => {
+      findCourse(course.courseId);
+      courses = courses.filter((c) => c.courseId !== course.courseId);
+    }, `Курс «${course.title}» удалён`),
+  );
+  removeCourse.dataset.testid = 'delete-entity';
+
   const actions = el('div', 'actions');
   actions.append(
     button('Добавить студента', 'btn-ghost', () => {
@@ -196,12 +206,7 @@ function createCard(course, index) {
       });
       studentForm.elements.studentId.focus({preventScroll: true});
     }),
-    button('Удалить курс', 'btn-text', () =>
-      perform(() => {
-        findCourse(course.courseId);
-        courses = courses.filter((c) => c.courseId !== course.courseId);
-      }, `Курс «${course.title}» удалён`),
-    ),
+    removeCourse,
   );
 
   card.append(meta, el('h3', '', course.title), list, actions);
@@ -319,7 +324,7 @@ console.warn(
   groupCoursesByStudentCount(courses),
 );
 console.warn('Уникальные студенты:', getUniqueStudents(courses));
-console.warn('Курсы студента с id=1:', getCoursesByStudentId(courses, 1));
+console.warn('Курсы студента с id=1:', findCoursesByStudent(courses, 1));
 console.warn('Студенты по курсам:', groupStudentsByCourse(courses));
 console.warn(
   'Курсы с максимумом студентов:',
