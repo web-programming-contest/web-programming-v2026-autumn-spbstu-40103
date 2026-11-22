@@ -6,9 +6,7 @@ import {
   groupStudentsByCourse,
   getCoursesWithMaxStudents,
   createSampleCourses,
-} from './course.js';
-
-// localStorage.removeItem('courses');
+} from './model.js';
 
 const STORAGE_KEY = 'courses';
 const DELAY = 500;
