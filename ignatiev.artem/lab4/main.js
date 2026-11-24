@@ -1,4 +1,4 @@
-import { User } from './model.js';
+import {User} from './model.js';
 
 const storageKey = 'users';
 const delay = 300;
