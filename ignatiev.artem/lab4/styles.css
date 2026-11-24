@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px 16px;
+  background: #f3f4f6;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 28px;
+}
+
+.section-title {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.panel {
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.15);
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+}
+
+.field {
+  display: grid;
+  gap: 4px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.input {
+  width: 100%;
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid #9ca3af;
+  border-radius: 4px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+
+.input:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 1px;
+}
+
+.button {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 4px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1d4ed8;
+}
+
+.button:focus-visible {
+  outline: 2px solid #1f2937;
+  outline-offset: 2px;
+}
+
+.button-danger {
+  background: #dc2626;
+}
+
+.button-danger:hover {
+  background: #b91c1c;
+}
+
+.button-small {
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-size: 14px;
+}
+
+.stats-line {
+  margin: 4px 0;
+}
+
+.user-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.user-card {
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.user-name {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.user-text {
+  margin: 4px 0;
+}
+
+.friend-list {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.friend-item {
+  margin: 4px 0;
+}
+
+.friend-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.friend-select {
+  flex: 1 1 160px;
+  width: auto;
+}
+
+@media (width <= 480px) {
+  body {
+    padding: 12px 8px;
+  }
+
+  .panel {
+    padding: 12px;
+  }
+}
