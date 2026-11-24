@@ -92,3 +92,19 @@ export function groupUsersByFriendCount(users) {
 
   return groups;
 }
+
+export function getUniqueFriends(users) {
+  const unique = [];
+
+  for (const user of users) {
+    for (const friend of user.friends) {
+      const friendId = getId(friend);
+
+      if (!unique.some((item) => sameId(item, friendId))) {
+        unique.push(friendId);
+      }
+    }
+  }
+
+  return unique;
+}
