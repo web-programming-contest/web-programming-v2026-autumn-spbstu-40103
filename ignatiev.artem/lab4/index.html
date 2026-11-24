@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Пользователи и друзья</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1 class="title">Пользователи и друзья</h1>
+
+      <section class="panel">
+        <h2 class="section-title">Добавить пользователя</h2>
+        <form class="form" data-testid="entity-form">
+          <div class="field">
+            <label class="label" for="user-id">ID (можно не заполнять)</label>
+            <input
+              class="input"
+              id="user-id"
+              name="id"
+              type="text"
+              autocomplete="off"
+            />
+          </div>
+          <div class="field">
+            <label class="label" for="user-name">Имя</label>
+            <input
+              class="input"
+              id="user-name"
+              name="name"
+              type="text"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <div class="field">
+            <label class="label" for="user-friends"
+              >Друзья (ID через запятую)</label
+            >
+            <input
+              class="input"
+              id="user-friends"
+              name="friends"
+              type="text"
+              autocomplete="off"
+            />
+          </div>
+          <button class="button" type="submit">Добавить</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2 class="section-title">Список пользователей</h2>
+        <ul class="user-list" data-testid="entity-list"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
