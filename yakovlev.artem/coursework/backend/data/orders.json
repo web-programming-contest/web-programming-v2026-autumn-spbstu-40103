@@ -1,0 +1,78 @@
+[
+  {
+    "number": 405674,
+    "date": "12.02.2024",
+    "user": "user",
+    "items": [
+      {
+        "id": 11,
+        "qty": 1
+      },
+      {
+        "id": 18,
+        "qty": 1
+      }
+    ],
+    "total": 1300,
+    "contact": {
+      "phone": "+7 (900) 111-22-33",
+      "email": "",
+      "delivery": "pickup",
+      "address": "",
+      "payment": "card",
+      "packaging": false
+    }
+  },
+  {
+    "number": 436789,
+    "date": "1.03.2024",
+    "user": "user",
+    "items": [
+      {
+        "id": 5,
+        "qty": 1
+      },
+      {
+        "id": 13,
+        "qty": 1
+      },
+      {
+        "id": 9,
+        "qty": 1
+      },
+      {
+        "id": 21,
+        "qty": 1
+      }
+    ],
+    "total": 54378,
+    "contact": {
+      "phone": "+7 (900) 111-22-33",
+      "email": "user@example.com",
+      "delivery": "courier",
+      "address": "Санкт-Петербург, ул. Барочная, д. 7",
+      "payment": "cash",
+      "packaging": true
+    }
+  },
+  {
+    "number": 567800,
+    "date": "28.04.2024",
+    "user": "user",
+    "items": [
+      {
+        "id": 26,
+        "qty": 1
+      }
+    ],
+    "total": 6990,
+    "contact": {
+      "phone": "+7 (900) 111-22-33",
+      "email": "",
+      "delivery": "pickup",
+      "address": "",
+      "payment": "card",
+      "packaging": false
+    }
+  }
+]
